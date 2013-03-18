@@ -7,3 +7,12 @@ c:\Users\Josh\Documents\Visual Studio 2012\Projects\Asml-Level100Pikachus\Asml-L
 c:\Users\Josh\Documents\Visual Studio 2012\Projects\Asml-Level100Pikachus\Asml-Level100Pikachus\obj\Debug\Asml-Level100Pikachus.exe
 c:\Users\Josh\Documents\Visual Studio 2012\Projects\Asml-Level100Pikachus\Asml-Level100Pikachus\obj\Debug\Asml-Level100Pikachus.pdb
 c:\Users\Josh\Documents\Visual Studio 2012\Projects\Asml-Level100Pikachus\Asml-Level100Pikachus\obj\Debug\Asml_Level100Pikachus.Asml.resources
+C:\Users\Christopher Knight\Documents\GitHub\ASML\Asml-Level100Pikachus\Asml-Level100Pikachus\bin\Debug\Asml-Level100Pikachus.exe.config
+C:\Users\Christopher Knight\Documents\GitHub\ASML\Asml-Level100Pikachus\Asml-Level100Pikachus\obj\Debug\Asml-Level100Pikachus.exe
+C:\Users\Christopher Knight\Documents\GitHub\ASML\Asml-Level100Pikachus\Asml-Level100Pikachus\obj\Debug\Asml-Level100Pikachus.pdb
+C:\Users\Christopher Knight\Documents\GitHub\ASML\Asml-Level100Pikachus\Asml-Level100Pikachus\bin\Debug\Asml-Level100Pikachus.exe
+C:\Users\Christopher Knight\Documents\GitHub\ASML\Asml-Level100Pikachus\Asml-Level100Pikachus\bin\Debug\Asml-Level100Pikachus.pdb
+C:\Users\Christopher Knight\Documents\GitHub\ASML\Asml-Level100Pikachus\Asml-Level100Pikachus\obj\Debug\Asml-Level100Pikachus.csprojResolveAssemblyReference.cache
+C:\Users\Christopher Knight\Documents\GitHub\ASML\Asml-Level100Pikachus\Asml-Level100Pikachus\obj\Debug\Asml_Level100Pikachus.Asml.resources
+C:\Users\Christopher Knight\Documents\GitHub\ASML\Asml-Level100Pikachus\Asml-Level100Pikachus\obj\Debug\Asml_Level100Pikachus.Properties.Resources.resources
+C:\Users\Christopher Knight\Documents\GitHub\ASML\Asml-Level100Pikachus\Asml-Level100Pikachus\obj\Debug\Asml-Level100Pikachus.csproj.GenerateResource.Cache
