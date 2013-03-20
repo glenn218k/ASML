@@ -30,6 +30,7 @@ namespace Asml_Level100Pikachus
             {
                 listOfTargets.Items.Clear();
                 string filePath = dialog.FileName;
+<<<<<<< HEAD
                 Factory factory = Factory.GetInstance();
                 FileReader reader = factory.CreateReader(filePath);
                 List<Target> targets = reader.ReadLines(filePath);
@@ -37,6 +38,11 @@ namespace Asml_Level100Pikachus
                 TargetManager tm = TargetManager.GetInstance();
                 tm.ClearTargets();
                 tm.AddTargets(targets);
+=======
+                Controller controller = Controller.GetInstance();
+                controller.LoadTargets(filePath);
+                TargetManager tm = TargetManager.GetInstance();
+>>>>>>> origin/jon
 
                 int numFriends = 0;
                 int numFoes = 0;
@@ -77,8 +83,16 @@ namespace Asml_Level100Pikachus
 
         private void fire_button_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:\Users\Josh\Documents\GitHub\ASML\Asml-Level100Pikachus\Asml-Level100Pikachus\Resources\kachu.wav");
             player.Play();
+=======
+            //System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:\Users\Josh\Documents\GitHub\ASML\Asml-Level100Pikachus\Asml-Level100Pikachus\Resources\kachu.wav");
+           // player.Play();
+            Controller controller = Controller.GetInstance();
+            controller.Launcher = new MissileLauncherAdapter();
+            controller.Fire();  
+>>>>>>> origin/jon
             MessageBox.Show("Bang!");
         }
 
@@ -92,18 +106,36 @@ namespace Asml_Level100Pikachus
 
         private void right_button_Down(object sender, MouseEventArgs e)
         {
+<<<<<<< HEAD
             moveTimer.Enabled = true;
             m_startDown = DateTime.Now;
+=======
+            //moveTimer.Enabled = true;
+            //m_startDown = DateTime.Now;
+            Controller controller = Controller.GetInstance();
+            controller.Launcher = new MissileLauncherAdapter();
+            controller.MoveBy(100, 0); 
+>>>>>>> origin/jon
         }
 
         private void right_button_Up(object sender, MouseEventArgs e)
         {
+<<<<<<< HEAD
             moveTimer.Enabled = false;
+=======
+            //moveTimer.Enabled = false;
+>>>>>>> origin/jon
         }
 
         private void left_button_Down(object sender, MouseEventArgs e)
         {
+<<<<<<< HEAD
 
+=======
+            Controller controller = Controller.GetInstance();
+            controller.Launcher = new MissileLauncherAdapter();
+            controller.MoveBy(-100,0); 
+>>>>>>> origin/jon
         }
 
         private void left_button_Up(object sender, MouseEventArgs e)
@@ -113,7 +145,13 @@ namespace Asml_Level100Pikachus
 
         private void up_button_Down(object sender, MouseEventArgs e)
         {
+<<<<<<< HEAD
 
+=======
+            Controller controller = Controller.GetInstance();
+            controller.Launcher = new MissileLauncherAdapter();
+            controller.MoveBy(0, 20);
+>>>>>>> origin/jon
         }
 
         private void up_button_Up(object sender, MouseEventArgs e)
@@ -123,7 +161,13 @@ namespace Asml_Level100Pikachus
 
         private void down_button_Down(object sender, MouseEventArgs e)
         {
+<<<<<<< HEAD
 
+=======
+            Controller controller = Controller.GetInstance();
+            controller.Launcher = new MissileLauncherAdapter();
+            controller.MoveBy(0, -20);
+>>>>>>> origin/jon
         }
 
         private void down_button_Up(object sender, MouseEventArgs e)
