@@ -48,7 +48,7 @@ namespace Asml_Level100Pikachus
                 //make a list of nodes
                 XmlNodeList nodes = mainNode.ChildNodes;
 
-                /*string[] names = null;
+                string[] names = new string[11];
                 names[0] = "Bulbasaur";
                 names[1] = "Ivysaur";
                 names[2] = "Venasaur";
@@ -61,9 +61,8 @@ namespace Asml_Level100Pikachus
                 names[9] = "Pikachu";//24
                 names[10] = "Raichu";//25
                 Random rand = new Random();
-                int i = 0;*/
+                int i = 0;
 
-                int i = 1;
                 //go through each node
                 foreach (XmlNode node in nodes)
                 {
@@ -76,10 +75,10 @@ namespace Asml_Level100Pikachus
                     bool isFriend = Convert.ToBoolean(node.Attributes["isFriend"].Value);
 
                     XmlAttribute attribute = node.Attributes[0];
-                    //i = rand.Next(3);
+                    i = rand.Next(10);
 
                     //set the attributes to the target
-                    target.name = "Brian L LaMarche " + i;
+                    target.name = names[i];
                     target.friend = isFriend;
                     target.x = xPos;
                     target.y = yPos;
