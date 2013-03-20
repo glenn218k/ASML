@@ -138,5 +138,12 @@ namespace Asml_Level100Pikachus
         {
 
         }
+
+        private void button_reset_Click(object sender, EventArgs e)
+        {
+            Controller controller = Controller.GetInstance();
+            controller.Launcher = new MissileLauncherAdapter();
+            controller.Launcher.Reset(); ;
+        }
     }
 }

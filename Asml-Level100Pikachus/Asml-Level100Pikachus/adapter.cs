@@ -65,12 +65,15 @@ namespace Asml_Level100Pikachus
 
         public void MoveTo(double phi, double psi)
         {
-            throw new NotImplementedException();
+            int leftright = Convert.ToInt32(phi);
+            int updown = Convert.ToInt32(psi);
         }
 
         public void Reset()
         {
-            throw new NotImplementedException();
+            m_launcher.command_reset();
+            MoveBy(230, 0);
+            MoveBy(0, -100);
         }
     }
     /// <summary>
