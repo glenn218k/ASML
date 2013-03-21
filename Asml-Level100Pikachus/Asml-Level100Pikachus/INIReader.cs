@@ -97,7 +97,10 @@ namespace Asml_Level100Pikachus
                 }
             }
 
+<<<<<<< HEAD
             // These are the names to use when the target is a friend.
+=======
+>>>>>>> Should be final update.
             string[] goodNames = new string[12];
             goodNames[0] = "Bulbasaur";
             goodNames[1] = "Ivysaur";
@@ -112,7 +115,10 @@ namespace Asml_Level100Pikachus
             goodNames[10] = "Raichu";
             goodNames[11] = "Scizor";
 
+<<<<<<< HEAD
             // These are the names to use when the target is a foe.
+=======
+>>>>>>> Should be final update.
             string[] badNames = new string[7];
             badNames[0] = "Meowth";
             badNames[1] = "Arbok";
@@ -125,7 +131,10 @@ namespace Asml_Level100Pikachus
             Random rand = new Random();
             int i = 0;
 
+<<<<<<< HEAD
             // This sets the targets name based on being a friend or foe.
+=======
+>>>>>>> Should be final update.
             foreach (Target target in targets)
             {
                 if (target.friend == true)

@@ -61,6 +61,7 @@ namespace Asml_Level100Pikachus.Properties {
         }
         
         /// <summary>
+<<<<<<< HEAD
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream kachu {
@@ -70,6 +71,8 @@ namespace Asml_Level100Pikachus.Properties {
         }
         
         /// <summary>
+=======
+>>>>>>> Should be final update.
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap pikachuVid {

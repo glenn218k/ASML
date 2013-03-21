@@ -20,7 +20,10 @@ namespace Asml_Level100Pikachus
         {
             Launcher.Fire();
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> Should be final update.
         public void MoveBy(double phi, double psi)
         {
             Launcher.MoveBy(phi, psi);
@@ -50,14 +53,20 @@ namespace Asml_Level100Pikachus
             get;
             set;
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> Should be final update.
         private static Controller controllerInstance;
 
         private Controller()
         {
 
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> Should be final update.
         public static Controller GetInstance()
         {
             if (controllerInstance == null)

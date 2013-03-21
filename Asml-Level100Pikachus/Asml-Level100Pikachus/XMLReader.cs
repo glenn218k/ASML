@@ -48,7 +48,10 @@ namespace Asml_Level100Pikachus
                 //make a list of nodes
                 XmlNodeList nodes = mainNode.ChildNodes;
 
+<<<<<<< HEAD
                 // These are the names to use when the target is a friend.
+=======
+>>>>>>> Should be final update.
                 string[] goodNames = new string[12];
                 goodNames[0] = "Bulbasaur";
                 goodNames[1] = "Ivysaur";
@@ -63,7 +66,10 @@ namespace Asml_Level100Pikachus
                 goodNames[10] = "Raichu";
                 goodNames[11] = "Scizor";
 
+<<<<<<< HEAD
                 // These are the names to use when the target is a foe.
+=======
+>>>>>>> Should be final update.
                 string[] badNames = new string[7];
                 badNames[0] = "Meowth";
                 badNames[1] = "Arbok";
@@ -82,7 +88,11 @@ namespace Asml_Level100Pikachus
                     Target target = new Target();
 
                     //convert all the attributes
+<<<<<<< HEAD
                     string name = node.Attributes["name"].Value;
+=======
+                    //string name = node.Attributes["Name"].Value;
+>>>>>>> Should be final update.
                     double xPos = Convert.ToDouble(node.Attributes["xPos"].Value);
                     double yPos = Convert.ToDouble(node.Attributes["yPos"].Value);
                     double zPos = Convert.ToDouble(node.Attributes["zPos"].Value);
@@ -91,7 +101,11 @@ namespace Asml_Level100Pikachus
                     XmlAttribute attribute = node.Attributes[0];
 
                     //set the attributes to the target
+<<<<<<< HEAD
                     target.internalName = name;
+=======
+                    //target.internalName = name;
+>>>>>>> Should be final update.
                     target.friend = isFriend;
                     target.x = xPos;
                     target.y = yPos;

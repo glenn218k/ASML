@@ -9,10 +9,13 @@ namespace Asml_Level100Pikachus
     {
         static TargetManager m_manager;
 
+<<<<<<< HEAD
         /// <summary>
         /// This method gets the single instance of the target manager.
         /// </summary>
         /// <returns></returns>
+=======
+>>>>>>> Should be final update.
         public static TargetManager GetInstance()
         {
             if (m_manager == null)
@@ -21,10 +24,13 @@ namespace Asml_Level100Pikachus
             return m_manager;
         }
 
+<<<<<<< HEAD
         /// <summary>
         /// This method adds targets to the target manager.
         /// </summary>
         /// <param name="targets"></param>
+=======
+>>>>>>> Should be final update.
         public virtual void AddTargets(List<Target> targets)
         {
             foreach (Target target in targets)
@@ -33,6 +39,14 @@ namespace Asml_Level100Pikachus
             }
         }
 
+<<<<<<< HEAD
+=======
+        public void PrintTargets()
+        {
+          
+        }
+
+>>>>>>> Should be final update.
         private TargetManager()
         {
             TMTargets = new List<Target>();
@@ -44,9 +58,12 @@ namespace Asml_Level100Pikachus
             set;
         }
 
+<<<<<<< HEAD
         /// <summary>
         /// This method clears the list of targets from the target manager.
         /// </summary>
+=======
+>>>>>>> Should be final update.
         public void ClearTargets()
         {
             TMTargets.Clear();

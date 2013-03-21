@@ -38,17 +38,24 @@ namespace Asml_Level100Pikachus
             m_launcher.command_Fire();           
         }
 
+<<<<<<< HEAD
         /// <summary>
         /// This method makes the ASML move left or right, or up or down.
         /// </summary>
         /// <param name="phi"></param>
         /// <param name="psi"></param>
+=======
+>>>>>>> Should be final update.
         public void MoveBy(double phi, double psi)
         {
             int leftright = Convert.ToInt32(phi);
             int updown = Convert.ToInt32(psi);
 
+<<<<<<< HEAD
             if (leftright > 0)// Figure out if we move right or left
+=======
+            if (leftright > 0)
+>>>>>>> Should be final update.
             {
                 m_launcher.command_Right(leftright);
             }
@@ -57,8 +64,12 @@ namespace Asml_Level100Pikachus
                 leftright = 0 - leftright;
                 m_launcher.command_Left(leftright); 
             }
+<<<<<<< HEAD
 
             if (updown > 0)// Figure out if we move up or down
+=======
+            if (updown > 0)
+>>>>>>> Should be final update.
             {
                 m_launcher.command_Up(updown);
             }
@@ -69,6 +80,7 @@ namespace Asml_Level100Pikachus
             }
         }
 
+<<<<<<< HEAD
         /// <summary>
         /// This method is used to make the ASML move to a specified position
         /// </summary>
@@ -87,14 +99,32 @@ namespace Asml_Level100Pikachus
             {
                 MoveBy(0,100);
             }*/
+=======
+        public void MoveTo(double phi, double psi)
+        {          
+            Reset();
+            double angle = Math.Atan2(phi, psi);
+            angle = angle * (180 / Math.PI);
+            double rotate = angle *(1850 / 90);
+            
+            MoveBy(rotate, 0);
+>>>>>>> Should be final update.
         }
 
         public void Reset()
         {
+<<<<<<< HEAD
             MoveBy(6500, 0);// Move all the way right
             MoveBy(-2980, 0);// Then move left 1/2 of the max so it is centered
             MoveBy(0, 880);// Move all the way up
             MoveBy(0, -580);// Move 1/2 of the way down so it is centered
+=======
+            
+            MoveBy(6500, 0);
+            MoveBy(-2960, 0);
+            MoveBy(0, 880);
+            MoveBy(0, -580);
+>>>>>>> Should be final update.
         }
     }
     /// <summary>
