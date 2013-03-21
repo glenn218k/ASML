@@ -10,6 +10,10 @@ namespace Asml_Level100Pikachus
     {
         public Target(){ }
 
+        /// <summary>
+        /// This method changes how the target will be presented in the list box
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             string friendFoe;

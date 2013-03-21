@@ -38,12 +38,17 @@ namespace Asml_Level100Pikachus
             m_launcher.command_Fire();           
         }
 
+        /// <summary>
+        /// This method makes the ASML move left or right, or up or down.
+        /// </summary>
+        /// <param name="phi"></param>
+        /// <param name="psi"></param>
         public void MoveBy(double phi, double psi)
         {
             int leftright = Convert.ToInt32(phi);
             int updown = Convert.ToInt32(psi);
 
-            if (leftright > 0)
+            if (leftright > 0)// Figure out if we move right or left
             {
                 m_launcher.command_Right(leftright);
             }
@@ -52,7 +57,8 @@ namespace Asml_Level100Pikachus
                 leftright = 0 - leftright;
                 m_launcher.command_Left(leftright); 
             }
-            if (updown > 0)
+
+            if (updown > 0)// Figure out if we move up or down
             {
                 m_launcher.command_Up(updown);
             }
@@ -63,23 +69,32 @@ namespace Asml_Level100Pikachus
             }
         }
 
+        /// <summary>
+        /// This method is used to make the ASML move to a specified position
+        /// </summary>
+        /// <param name="phi"></param>
+        /// <param name="psi"></param>
         public void MoveTo(double phi, double psi)
-        {          
-            Reset();
-            double angle = Math.Atan2(phi, psi);
-            angle = angle * (180 / Math.PI);
-            double rotate = angle *(1850 / 90);
+        {
+            Reset();// Reset the ASML to (0,0)
+            double distance = Math.Sqrt(Math.Pow(phi, 2) + Math.Pow(psi, 2));// Get the distance to the target
+            double angle = Math.Atan2(phi, psi);// Get the angle needed to move to be lined up to the target
+            angle = angle * (180 / Math.PI);// Convert from radians to degrees
+            double rotate = angle *(1850 / 90);// This gets the angle based in our units needed to rotate
             
-            MoveBy(rotate, 0);
+            MoveBy(rotate, 0);// Then rotate by that much
+           /* if(distance > 2000) // This is to adjust hight if needed.
+            {
+                MoveBy(0,100);
+            }*/
         }
 
         public void Reset()
         {
-            
-            MoveBy(6500, 0);
-            MoveBy(-2960, 0);
-            MoveBy(0, 880);
-            MoveBy(0, -580);
+            MoveBy(6500, 0);// Move all the way right
+            MoveBy(-2980, 0);// Then move left 1/2 of the max so it is centered
+            MoveBy(0, 880);// Move all the way up
+            MoveBy(0, -580);// Move 1/2 of the way down so it is centered
         }
     }
     /// <summary>

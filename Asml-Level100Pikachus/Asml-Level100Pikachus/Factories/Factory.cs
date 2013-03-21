@@ -15,7 +15,9 @@ namespace Asml_Level100Pikachus.Factories
         public static Factory GetInstance()
         {
             if (m_factory == null)
+            {
                 m_factory = new Factory();
+            }
 
             return m_factory;
         }

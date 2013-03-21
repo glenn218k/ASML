@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Asml_Level100Pikachus.Factories;
+using System.Resources;
 
 namespace Asml_Level100Pikachus
 {
@@ -20,6 +21,11 @@ namespace Asml_Level100Pikachus
             InitializeComponent();
         }
 
+        /// <summary>
+        /// This method gets targets from a file when opened from the menu strip.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OpenFileDialog dialog = new OpenFileDialog();
@@ -53,6 +59,11 @@ namespace Asml_Level100Pikachus
             }
         }
 
+        /// <summary>
+        /// This method updates the Target Info text boxes bases on what target is selected.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void listOfTargets_SelectedIndexChanged(object sender, EventArgs e)
         {
             Target target = listOfTargets.SelectedItem as Target;
@@ -72,24 +83,38 @@ namespace Asml_Level100Pikachus
 
             Controller controller = Controller.GetInstance();
             controller.Launcher = new MissileLauncherAdapter();
-            
         }
 
+        /// <summary>
+        /// This method move to the selected target and then fire.
+        /// If there is no selected target, it will just fire.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void fire_button_Click(object sender, EventArgs e)
         {
-            //System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:\Users\Josh\Documents\GitHub\ASML\Asml-Level100Pikachus\Asml-Level100Pikachus\Resources\kachu.wav");
-           // player.Play();
             Controller controller = Controller.GetInstance();
             controller.Launcher = new MissileLauncherAdapter();
-            if (listOfTargets.SelectedItem != null)
+           /* if (listOfTargets.SelectedItem != null)
             {
-               // Target target = listOfTargets.SelectedItem.;
-               // controller.MoveTo(listOfTargets.SelectedItem, listOfTargets.SelectedItem);
-            }
+                Target target = listOfTargets.SelectedItem as Target;
+                controller.MoveTo(target.x, target.y);
+            }*/ // this if will move to the selected target before firing.
+
+            // this is for an awesome sound to play when fired.
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer(Properties.Resources.kachu);
+            player.Play();
+
             controller.Fire();  
             //MessageBox.Show("Bang!");
         }
 
+        /// <summary>
+        /// This method is going to be used for increases movement speed while the
+        /// move button is held down.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void moveTimer_Tick(object sender, EventArgs e)
         {
             //DateTime currentTime = DateTime.Now;
@@ -98,13 +123,18 @@ namespace Asml_Level100Pikachus
             //double acceleration = 5 * Math.Log(Math.Max(1, spanSince.TotalSeconds));
         }
 
+        /// <summary>
+        /// This method moves the ASML right by a small amount
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void right_button_Down(object sender, MouseEventArgs e)
         {
             //moveTimer.Enabled = true;
             //m_startDown = DateTime.Now;
             Controller controller = Controller.GetInstance();
             controller.Launcher = new MissileLauncherAdapter();
-            controller.MoveBy(1850, 0); 
+            controller.MoveBy(100, 0); 
         }
 
         private void right_button_Up(object sender, MouseEventArgs e)
@@ -112,6 +142,11 @@ namespace Asml_Level100Pikachus
             //moveTimer.Enabled = false;
         }
 
+        /// <summary>
+        /// This method moves the ASML left by a small amount
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void left_button_Down(object sender, MouseEventArgs e)
         {
             Controller controller = Controller.GetInstance();
@@ -124,6 +159,11 @@ namespace Asml_Level100Pikachus
 
         }
 
+        /// <summary>
+        /// This method moves the ASML up by a small amount
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void up_button_Down(object sender, MouseEventArgs e)
         {
             Controller controller = Controller.GetInstance();
@@ -136,6 +176,11 @@ namespace Asml_Level100Pikachus
 
         }
 
+        /// <summary>
+        /// This method moves the ASML down by a small amount
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void down_button_Down(object sender, MouseEventArgs e)
         {
             Controller controller = Controller.GetInstance();
@@ -148,6 +193,11 @@ namespace Asml_Level100Pikachus
 
         }
 
+        /// <summary>
+        /// This method resets the ASML to (0,0)
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button_reset_Click(object sender, EventArgs e)
         {
             Controller controller = Controller.GetInstance();
