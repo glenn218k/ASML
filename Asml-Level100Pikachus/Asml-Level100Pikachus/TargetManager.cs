@@ -7,6 +7,18 @@ namespace Asml_Level100Pikachus
 {
     public class TargetManager
     {
+        public delegate void AddTarget(object sender, Target target);
+
+        public event AddTarget AddedTarget;
+
+        /*public void AddTarget(Target target)
+        {
+            if (AddedTarget != null)
+            {
+                AddedTarget(this, target);
+            }
+        }*/
+
         static TargetManager m_manager;
 
         /// <summary>

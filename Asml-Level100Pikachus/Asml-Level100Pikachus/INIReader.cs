@@ -42,6 +42,9 @@ namespace Asml_Level100Pikachus
                     {
                         throw new Exception("Invalid .ini format.");
                     }
+                    else if (trimmedLine.StartsWith(";"))
+                    {
+                    }
                     // If the line was not split into 2 strings, the line is bad so throw exception.
                     else if (splits.Length != 2)
                     {

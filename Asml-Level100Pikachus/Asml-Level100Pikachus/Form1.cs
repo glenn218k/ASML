@@ -16,9 +16,15 @@ namespace Asml_Level100Pikachus
     {
         //DateTime m_startDown;
 
+        TargetManager tm;
+
         public Asml()
         {
             InitializeComponent();
+
+            tm = TargetManager.GetInstance();
+
+            //tm.AddedTarget += ;
         }
 
         /// <summary>
