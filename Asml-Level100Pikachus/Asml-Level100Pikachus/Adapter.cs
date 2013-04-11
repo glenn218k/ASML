@@ -91,10 +91,21 @@ namespace Asml_Level100Pikachus
 
         public void Reset()
         {
-            MoveBy(6500, 0);// Move all the way right
-            MoveBy(-2980, 0);// Then move left 1/2 of the max so it is centered
+            MoveBy(5500, 0);// Move all the way right
+            MoveBy(-2700, 0);// Then move left 1/2 of the max so it is centered
             MoveBy(0, 880);// Move all the way up
             MoveBy(0, -580);// Move 1/2 of the way down so it is centered
+        }
+
+
+        public double Phi
+        {
+            get { throw new NotImplementedException(); }
+        }
+
+        public double Theta
+        {
+            get { throw new NotImplementedException(); }
         }
     }
     /// <summary>

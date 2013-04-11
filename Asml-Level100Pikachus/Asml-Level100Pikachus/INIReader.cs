@@ -42,6 +42,9 @@ namespace Asml_Level100Pikachus
                     {
                         throw new Exception("Invalid .ini format.");
                     }
+                    else if (trimmedLine.StartsWith(";"))
+                    {
+                    }
                     // If the line was not split into 2 strings, the line is bad so throw exception.
                     else if (splits.Length != 2)
                     {
@@ -53,29 +56,29 @@ namespace Asml_Level100Pikachus
                         splits[1] = splits[1].Trim();
 
                         //check the left side of the = to know which field to set
-                        if (splits[0] == "Name")
+                        if (splits[0].ToLower() == "name")
                         {
                             targets.Last().internalName = splits[1];
                         }
-                        else if (splits[0] == "x")
+                        else if (splits[0].ToLower() == "x")
                         {
                             double x = Convert.ToDouble(splits[1]);
                             targets.Last().x = x;
                         }
-                        else if (splits[0] == "y")
+                        else if (splits[0].ToLower() == "y")
                         {
                             double y = Convert.ToDouble(splits[1]);
                             targets.Last().y = y;
                         }
-                        else if (splits[0] == "z")
+                        else if (splits[0].ToLower() == "z")
                         {
                             double z = Convert.ToDouble(splits[1]);
                             targets.Last().z = z;
                         }
-                        else if (splits[0] == "Friend")
+                        else if (splits[0].ToLower() == "friend")
                         {
                             // set true/false appropriately
-                            if (splits[1] == "yes")
+                            if (splits[1].ToLower() == "yes")
                             {
                                 targets.Last().friend = true;
                             }
@@ -98,10 +101,10 @@ namespace Asml_Level100Pikachus
             }
 
             // These are the names to use when the target is a friend.
-            string[] goodNames = new string[12];
+            string[] goodNames = new string[13];
             goodNames[0] = "Bulbasaur";
             goodNames[1] = "Ivysaur";
-            goodNames[2] = "Venasaur";
+            goodNames[2] = "Venusaur";
             goodNames[3] = "Charmander";
             goodNames[4] = "Charmeleon";
             goodNames[5] = "Charizard";
@@ -111,9 +114,10 @@ namespace Asml_Level100Pikachus
             goodNames[9] = "Pikachu";
             goodNames[10] = "Raichu";
             goodNames[11] = "Scizor";
+            goodNames[12] = "Scyther";
 
             // These are the names to use when the target is a foe.
-            string[] badNames = new string[7];
+            string[] badNames = new string[8];
             badNames[0] = "Meowth";
             badNames[1] = "Arbok";
             badNames[2] = "Victreebel";
@@ -121,6 +125,7 @@ namespace Asml_Level100Pikachus
             badNames[4] = "Zubat";
             badNames[5] = "Geodude";
             badNames[6] = "Jigglypuff";
+            badNames[7] = "Wigglytuff";
 
             Random rand = new Random();
             int i = 0;
