@@ -25,7 +25,11 @@ namespace Asml_Level100Pikachus
             {
                 friendFoe = "Foe";
             }
+<<<<<<< HEAD
             return string.Format("{0} : {1} ", name, friendFoe);
+=======
+            return string.Format("{0} \"{1}\" : {2} ", name, internalName, friendFoe);
+>>>>>>> origin/jon
         }
 
         // get/set for all the variables

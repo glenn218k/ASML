@@ -42,6 +42,12 @@ namespace Asml_Level100Pikachus
                     {
                         throw new Exception("Invalid .ini format.");
                     }
+<<<<<<< HEAD
+=======
+                    else if (trimmedLine.StartsWith(";"))
+                    {
+                    }
+>>>>>>> origin/jon
                     // If the line was not split into 2 strings, the line is bad so throw exception.
                     else if (splits.Length != 2)
                     {
@@ -53,29 +59,52 @@ namespace Asml_Level100Pikachus
                         splits[1] = splits[1].Trim();
 
                         //check the left side of the = to know which field to set
+<<<<<<< HEAD
                         if (splits[0] == "Name")
                         {
                             targets.Last().internalName = splits[1];
                         }
                         else if (splits[0] == "x")
+=======
+                        if (splits[0].ToLower() == "name")
+                        {
+                            targets.Last().internalName = splits[1];
+                        }
+                        else if (splits[0].ToLower() == "x")
+>>>>>>> origin/jon
                         {
                             double x = Convert.ToDouble(splits[1]);
                             targets.Last().x = x;
                         }
+<<<<<<< HEAD
                         else if (splits[0] == "y")
+=======
+                        else if (splits[0].ToLower() == "y")
+>>>>>>> origin/jon
                         {
                             double y = Convert.ToDouble(splits[1]);
                             targets.Last().y = y;
                         }
+<<<<<<< HEAD
                         else if (splits[0] == "z")
+=======
+                        else if (splits[0].ToLower() == "z")
+>>>>>>> origin/jon
                         {
                             double z = Convert.ToDouble(splits[1]);
                             targets.Last().z = z;
                         }
+<<<<<<< HEAD
                         else if (splits[0] == "Friend")
                         {
                             // set true/false appropriately
                             if (splits[1] == "yes")
+=======
+                        else if (splits[0].ToLower() == "friend")
+                        {
+                            // set true/false appropriately
+                            if (splits[1].ToLower() == "yes")
+>>>>>>> origin/jon
                             {
                                 targets.Last().friend = true;
                             }
@@ -98,10 +127,17 @@ namespace Asml_Level100Pikachus
             }
 
             // These are the names to use when the target is a friend.
+<<<<<<< HEAD
             string[] goodNames = new string[12];
             goodNames[0] = "Bulbasaur";
             goodNames[1] = "Ivysaur";
             goodNames[2] = "Venasaur";
+=======
+            string[] goodNames = new string[13];
+            goodNames[0] = "Bulbasaur";
+            goodNames[1] = "Ivysaur";
+            goodNames[2] = "Venusaur";
+>>>>>>> origin/jon
             goodNames[3] = "Charmander";
             goodNames[4] = "Charmeleon";
             goodNames[5] = "Charizard";
@@ -111,9 +147,16 @@ namespace Asml_Level100Pikachus
             goodNames[9] = "Pikachu";
             goodNames[10] = "Raichu";
             goodNames[11] = "Scizor";
+<<<<<<< HEAD
 
             // These are the names to use when the target is a foe.
             string[] badNames = new string[7];
+=======
+            goodNames[12] = "Scyther";
+
+            // These are the names to use when the target is a foe.
+            string[] badNames = new string[8];
+>>>>>>> origin/jon
             badNames[0] = "Meowth";
             badNames[1] = "Arbok";
             badNames[2] = "Victreebel";
@@ -121,6 +164,10 @@ namespace Asml_Level100Pikachus
             badNames[4] = "Zubat";
             badNames[5] = "Geodude";
             badNames[6] = "Jigglypuff";
+<<<<<<< HEAD
+=======
+            badNames[7] = "Wigglytuff";
+>>>>>>> origin/jon
 
             Random rand = new Random();
             int i = 0;

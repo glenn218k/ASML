@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="43022e28-d72c-41d5-aad4-e64045a67d26" name="UMLUseCaseDiagram1" linkedPackageId="f829f165-9cc3-443f-9f88-98e6ae55f1c7" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="f2a831c3-e84c-4abb-8bdf-ca6dfb753b23" name="Judge" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2009cdcc-ceaa-42d2-9a6a-6768811d2331" />
+        <targetEnds>
+          <association Id="62fa8468-8ca6-4da3-a850-af5e9cbf1a4b" isDerived="false" sourceEndRoleName="Judge" targetEndRoleName="Load File" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d151879e-5e59-414a-aa0d-b409f6dfed64" LastKnownName="Load File" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e7e46fc5-f443-4424-925c-37d5f2fbd4ac" name="Judge" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="866d48c0-5c23-48f9-81c5-4a35b6aba9aa" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9aa86ed1-9a7a-48e7-bbce-7eb041bdf0f0" name="Load File" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="57cdeb7e-789b-406f-9704-fc7498ecd4e6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3df8c0aa-da9d-461c-a622-4138e5b18c81" />
+          </association>
+          <association Id="c22c5807-c54c-4338-b4d5-694271a9f337" isDerived="false" sourceEndRoleName="Judge" targetEndRoleName="recognize usb launcher" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a9881d3b-3947-4d2a-a505-8260c2be17b1" LastKnownName="recognize usb launcher" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="adc9fb32-13be-4e09-bb3a-622013a69c05" name="Judge" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c035bc7d-fd52-4742-8b93-7f098e2741dc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="df178531-ef5a-4c8a-98d9-5d3b1ad4eb63" name="recognize usb launcher" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8ed7131a-3b40-40bf-b130-be033e8a2b05" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="29244399-f37f-441d-854d-f48962c03eb2" />
+          </association>
+          <association Id="6aa2fa0c-c863-4e33-89ca-c090d0edb03c" isDerived="false" sourceEndRoleName="Judge" targetEndRoleName="GUI display" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="6ae81018-318c-44b0-9078-fb4490ab5571" LastKnownName="GUI display" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6ac86624-96a4-4439-9031-1ca1329da76b" name="Judge" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="734435eb-c756-4fa7-af97-a7ee8dded2b4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="79a51c92-2546-4340-8532-419caa39e53f" name="GUI display" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fca97b22-ee28-44e6-b82e-2386549c8f9e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a1299fa1-9f44-4c17-a8b3-33dc30e001a4" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="b6e70057-d837-461a-b08e-f853b1d4c638" name="Christopher" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="bf8c92e6-25e9-4414-b57e-4dd3a105b96b" />
+        <targetEnds>
+          <association Id="8d6962db-8bd0-4c73-aa90-851e5d6226ef" isDerived="false" sourceEndRoleName="Christopher" targetEndRoleName="Fire Missiles" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b150f3b7-5021-4ea2-b21d-9522fe62a864" LastKnownName="Fire Missiles" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2ce96d3e-b8a6-4d6d-9eea-4999b1bede68" name="Christopher" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="baf49f1e-2149-4657-9189-4c2934dc24c7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="48d55222-d963-434f-8f79-727b67385d44" name="Fire Missiles" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="78fd1fec-ff98-4188-8991-0a19f3c94f86" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="47af362f-ea8c-4b3d-86ad-b6cca2fa7a8f" />
+          </association>
+          <association Id="196ea32b-bcd2-424c-b38d-5769d96b08e4" isDerived="false" sourceEndRoleName="Christopher" targetEndRoleName="Buttons control launcher" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b11a6a03-f9a4-4048-92b3-2935b0b943b4" LastKnownName="Buttons control launcher" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c96a0024-738a-403b-888f-e31ee8c5d64c" name="Christopher" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f1d93120-edcf-415f-8f1b-102ec7223a82" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="776bfc3c-d67e-4202-8596-585cbf67c131" name="Buttons control launcher" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ae5572f9-13ce-4dee-a0e7-307347ea3f41" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5fca1fd0-1eb0-4d90-a7fa-6931aafb4c2c" />
+          </association>
+          <association Id="cd65b63e-f8d0-4e21-932d-3f645c1bafde" isDerived="false" sourceEndRoleName="Christopher" targetEndRoleName="Launcher acceleration" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b4fd5dd4-5f7d-4458-bb7f-39a3e1c31838" LastKnownName="Launcher acceleration" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="af73cd38-f95e-418c-b424-fba053184ac8" name="Christopher" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="83ac3e4d-0cfb-441e-bea4-c6d066c5cf96" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9dc1f4b8-d55a-41d9-90cf-040dedb2bbd9" name="Launcher acceleration" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3e7ed3bb-e127-4957-8764-59bd3b8423d4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5e20e454-d0b5-4cc2-9b3b-a74d9d6864b2" />
+          </association>
+          <association Id="cce9d1bd-39a0-430b-87a3-0f1a817bc19c" isDerived="false" sourceEndRoleName="Christopher" targetEndRoleName="recognize usb launcher" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a9881d3b-3947-4d2a-a505-8260c2be17b1" LastKnownName="recognize usb launcher" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2582767a-0f44-42bd-8425-2d3954d5e400" name="Christopher" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e55bb0ae-c93b-46a1-aae7-02949109a8d9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="70c6bda6-b138-41c5-80e0-2e2eae0ba7a5" name="recognize usb launcher" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4e125143-179c-45c0-849f-12beb996a1f0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1b91b510-21c9-492c-9c84-c02e649583f1" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="251b504d-5f11-4c14-bb0f-3c5a616b5bc8" name="Josh" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="65e5ee36-2d6b-44ba-8421-82d911c9f52d" />
+        <targetEnds>
+          <association Id="0379635c-fb3a-492c-b903-72174d916d07" isDerived="false" sourceEndRoleName="Josh" targetEndRoleName="Fire Missiles" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b150f3b7-5021-4ea2-b21d-9522fe62a864" LastKnownName="Fire Missiles" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e89aefd0-2636-43f8-8d65-9b1fa7ddca2f" name="Josh" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f62f5be0-f99d-4713-b099-fbe566c1923c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="41cbcd72-7e76-4102-8fe6-5f34e4f9d35b" name="Fire Missiles" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e2986d31-1189-4f87-8477-817b5eb77b38" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="57e35475-ba06-460f-967e-b3dc23189558" />
+          </association>
+          <association Id="cb9629fd-91fb-435a-aed8-27d611666250" isDerived="false" sourceEndRoleName="Josh" targetEndRoleName="Buttons control launcher" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b11a6a03-f9a4-4048-92b3-2935b0b943b4" LastKnownName="Buttons control launcher" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6c82a438-39c1-4159-bba6-76daffef5b40" name="Josh" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="54a715b0-9a93-4278-a166-0e23e9d7f165" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="29439c77-6236-4c08-a99f-c680a5b6e5c7" name="Buttons control launcher" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a0b3eb5a-35f5-4296-90f0-323fbcc651cd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ac0c675c-0203-412e-8d02-58fcc2858cac" />
+          </association>
+          <association Id="48b22d60-55c9-417b-9b88-593d4727ab95" isDerived="false" sourceEndRoleName="Josh" targetEndRoleName="Launcher acceleration" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b4fd5dd4-5f7d-4458-bb7f-39a3e1c31838" LastKnownName="Launcher acceleration" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="871a954b-93c6-458f-9f07-b08b891123e6" name="Josh" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="42134505-01be-4a9f-9158-b842213a3878" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2addc86e-03dd-47d6-9ea3-b629bcc1db17" name="Launcher acceleration" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="82c20e40-35cf-4fad-8d40-cb5726cebc72" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5b222d9a-2154-41a2-acb1-f8a9b68e5c77" />
+          </association>
+          <association Id="7524fd3b-8c6d-41af-9171-2d6f05c4eaa1" isDerived="false" sourceEndRoleName="Josh" targetEndRoleName="recognize usb launcher" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a9881d3b-3947-4d2a-a505-8260c2be17b1" LastKnownName="recognize usb launcher" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="17a89bb3-2cb3-49ef-a6c7-39923567c731" name="Josh" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="74ed0318-29d6-446d-82f7-587feb3a2f10" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2763b2a7-6e7f-4062-b9a1-9c9a31d004ac" name="recognize usb launcher" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0be54ebc-5895-48ef-916e-72678df513c0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="08e9ffe0-538f-4952-bbbd-495fb09e9e21" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="12b44449-56cb-4c22-a454-9d1278a679d4" name="Jon" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="de3017c1-0740-4059-8de6-2a207ef56da0" />
+        <targetEnds>
+          <association Id="b4974e6b-9c13-4596-8979-84a4472be901" isDerived="false" sourceEndRoleName="Jon" targetEndRoleName="Fire Missiles" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b150f3b7-5021-4ea2-b21d-9522fe62a864" LastKnownName="Fire Missiles" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="380bc2b8-8f57-40a6-a87f-1631a7485a9e" name="Jon" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="48416c16-130d-45af-8187-dbef6c86dc22" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="39c8e1b6-af76-4d64-be9b-d73ebec63da1" name="Fire Missiles" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="414814ed-b69f-4b93-859b-6a3791150edf" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2ad35212-7c1a-434c-b09c-81cfac3b82f6" />
+          </association>
+          <association Id="16bf52aa-3e46-4fdb-8286-05d25f399a89" isDerived="false" sourceEndRoleName="Jon" targetEndRoleName="Buttons control launcher" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b11a6a03-f9a4-4048-92b3-2935b0b943b4" LastKnownName="Buttons control launcher" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2013dcf5-0caa-446b-afa1-88a4c249711f" name="Jon" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8c67efd3-0039-42bc-8aee-c8292bab4852" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b82bdfbc-d7b5-4ba9-b267-ea53d6776c2c" name="Buttons control launcher" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="179b489a-4216-44fa-b8e4-c0b5f3c5bb3f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="06388f0a-ff52-4c2c-908b-113211ba695a" />
+          </association>
+          <association Id="1052322a-58f3-4295-ae19-8db1587250d4" isDerived="false" sourceEndRoleName="Jon" targetEndRoleName="Launcher acceleration" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b4fd5dd4-5f7d-4458-bb7f-39a3e1c31838" LastKnownName="Launcher acceleration" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7f17a7f4-7143-4d70-81db-231a7b57d0ca" name="Jon" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="82807db6-c18d-4121-9bf0-0516daeed39a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="35ae806c-4cdf-466e-8539-7eb1632dcb04" name="Launcher acceleration" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ca0d5fce-3b9d-45ff-85c7-ee64c71191ec" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="069819cf-3eeb-40a9-a2a9-1a45533d5e5f" />
+          </association>
+          <association Id="0623fb5f-e842-4cae-960b-3e2d0016865a" isDerived="false" sourceEndRoleName="Jon" targetEndRoleName="recognize usb launcher" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a9881d3b-3947-4d2a-a505-8260c2be17b1" LastKnownName="recognize usb launcher" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1b3185a4-3d85-4eab-88b4-ff85a1e148a8" name="Jon" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="516d8abe-b385-438c-9855-04e88578a697" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="18c14733-968a-4212-8c9a-349c8b810bc1" name="recognize usb launcher" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b5ab79e4-2711-4d45-ad2c-7b2e6f5874a6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="84c7e988-520c-4c64-8de5-e5b6304e2699" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b150f3b7-5021-4ea2-b21d-9522fe62a864" name="Fire Missiles" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a6643074-2057-4859-ab35-af9492413491" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="d151879e-5e59-414a-aa0d-b409f6dfed64" name="Load File" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="18a73bb8-edd2-4f79-b460-9026e2e8ff6f" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b11a6a03-f9a4-4048-92b3-2935b0b943b4" name="Buttons control launcher" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="09202804-4c28-4bbd-8f7f-b07c5306d880" />
+        <extendedCases>
+          <extend Id="f5a80c38-482d-49c4-a31f-103b4e746ce5">
+            <useCaseMoniker Id="b150f3b7-5021-4ea2-b21d-9522fe62a864" LastKnownName="Fire Missiles" />
+            <elementDefinition Id="f185d4a7-adb2-451c-b38d-dd38610f8ba8" />
+          </extend>
+          <extend Id="59f23cc6-11a8-4b92-aba4-fffcef6c32e9">
+            <useCaseMoniker Id="b4fd5dd4-5f7d-4458-bb7f-39a3e1c31838" LastKnownName="Launcher acceleration" />
+            <elementDefinition Id="701402ee-431b-4a04-b401-767cbe52df5b" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b4fd5dd4-5f7d-4458-bb7f-39a3e1c31838" name="Launcher acceleration" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="199c04b6-7d7e-4460-845d-7b851dd3d9d7" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="a9881d3b-3947-4d2a-a505-8260c2be17b1" name="recognize usb launcher" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="443bd37e-c300-4431-b6e2-4fff8f91a18a" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="6ae81018-318c-44b0-9078-fb4490ab5571" name="GUI display" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6ca3fa2e-c7af-41ab-b2d8-3b75619c8950" />
+        <generalsInternal>
+          <generalization Id="33191f6b-e431-4a52-a0b3-392180c995b8" isSubstitutable="false">
+            <useCaseMoniker Id="d151879e-5e59-414a-aa0d-b409f6dfed64" LastKnownName="Load File" />
+            <elementDefinition Id="6226eb01-63b2-4812-812b-b384cf6f7b1c" />
+          </generalization>
+          <generalization Id="460937ef-2c75-4537-a671-f3a674519543" isSubstitutable="false">
+            <useCaseMoniker Id="a9881d3b-3947-4d2a-a505-8260c2be17b1" LastKnownName="recognize usb launcher" />
+            <elementDefinition Id="f294def6-a8cb-4a97-a512-d1766a18b769" />
+          </generalization>
+          <generalization Id="e08748c6-f8ee-4a50-958f-f7c75c62525a" isSubstitutable="false">
+            <useCaseMoniker Id="b11a6a03-f9a4-4048-92b3-2935b0b943b4" LastKnownName="Buttons control launcher" />
+            <elementDefinition Id="10477ba1-a43c-4cf4-a1f7-abf46127ed97" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="f829f165-9cc3-443f-9f88-98e6ae55f1c7" name="ModelingProject1">
+    <elementDefinition Id="9372ece0-339f-483d-bc84-3c8c58cf7027" />
+    <profileInstances>
+      <packageHasProfileInstances Id="2efcfd02-8a39-4997-88e4-7d7d4090b471">
+        <profileInstance Id="ef46b9c8-cea0-48a4-b0b6-31f0e39688f5" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="6af82b2f-308e-4750-a736-1709e5d1ed60">
+        <profileInstance Id="c201a086-6868-4cb6-86aa-56fc51fdce75" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

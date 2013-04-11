@@ -30,26 +30,52 @@ namespace Asml_Level100Pikachus
                 //set the mainnode
                 XmlNode mainNode = document.FirstChild;
 
+<<<<<<< HEAD
                 if (mainNode.Name == "xml")
+=======
+                if (mainNode.Name.ToLower() == "xml")
+>>>>>>> origin/jon
                 {
                     mainNode = mainNode.NextSibling;
 
                 }
 
                 //if the mainnode isnt targets, throw exception
+<<<<<<< HEAD
                 if (mainNode.Name == "Targets")
                 {
                 }
                 else
                 {
                     throw new Exception("Invalid xml format.");
+=======
+                int infLoop = 1;
+                while(infLoop == 1)
+                {
+                    if(mainNode.NodeType == XmlNodeType.Comment)
+                    {
+                        mainNode = mainNode.NextSibling;
+                    }
+                    else if (mainNode.Name.ToLower() == "targets")
+                    {
+                        infLoop = 0;
+                    }
+                    else
+                    {
+                        throw new Exception("Invalid xml format.");
+                    }
+>>>>>>> origin/jon
                 }
 
                 //make a list of nodes
                 XmlNodeList nodes = mainNode.ChildNodes;
 
                 // These are the names to use when the target is a friend.
+<<<<<<< HEAD
                 string[] goodNames = new string[12];
+=======
+                string[] goodNames = new string[13];
+>>>>>>> origin/jon
                 goodNames[0] = "Bulbasaur";
                 goodNames[1] = "Ivysaur";
                 goodNames[2] = "Venusaur";
@@ -62,9 +88,16 @@ namespace Asml_Level100Pikachus
                 goodNames[9] = "Pikachu";
                 goodNames[10] = "Raichu";
                 goodNames[11] = "Scizor";
+<<<<<<< HEAD
 
                 // These are the names to use when the target is a foe.
                 string[] badNames = new string[7];
+=======
+                goodNames[12] = "Scyther";
+
+                // These are the names to use when the target is a foe.
+                string[] badNames = new string[8];
+>>>>>>> origin/jon
                 badNames[0] = "Meowth";
                 badNames[1] = "Arbok";
                 badNames[2] = "Victreebel";
@@ -72,6 +105,10 @@ namespace Asml_Level100Pikachus
                 badNames[4] = "Zubat";
                 badNames[5] = "Geodude";
                 badNames[6] = "Jigglypuff";
+<<<<<<< HEAD
+=======
+                badNames[7] = "Wigglytuff";
+>>>>>>> origin/jon
 
                 Random rand = new Random();
                 int i = 0;
@@ -82,7 +119,11 @@ namespace Asml_Level100Pikachus
                     Target target = new Target();
 
                     //convert all the attributes
+<<<<<<< HEAD
                     string name = node.Attributes["name"].Value;
+=======
+                    string name = node.Attributes["Name"].Value;
+>>>>>>> origin/jon
                     double xPos = Convert.ToDouble(node.Attributes["xPos"].Value);
                     double yPos = Convert.ToDouble(node.Attributes["yPos"].Value);
                     double zPos = Convert.ToDouble(node.Attributes["zPos"].Value);
