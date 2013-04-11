@@ -41,6 +41,11 @@ namespace Asml_Level100Pikachus
             if (result == System.Windows.Forms.DialogResult.OK)
             {
                 listOfTargets.Items.Clear();
+                textBox_name.Text = "";
+                textBox_x.Text = "";
+                textBox_y.Text = "";
+                textBox_z.Text = "";
+                textBox_friend.Text = "";
                 string filePath = dialog.FileName;
                 Controller controller = Controller.GetInstance();
                 controller.LoadTargets(filePath);
@@ -74,7 +79,7 @@ namespace Asml_Level100Pikachus
         {
             Target target = listOfTargets.SelectedItem as Target;
 
-            textBox_name.Text = target.name;
+            textBox_name.Text = target.name + " \"" + target.internalName + "\"";
             textBox_x.Text = Convert.ToString(target.x);
             textBox_y.Text = Convert.ToString(target.y);
             textBox_z.Text = Convert.ToString(target.z);
