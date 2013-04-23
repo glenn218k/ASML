@@ -1,0 +1,2292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="9cb11eb8-ec9d-4228-a62a-20e9dff64ede"
+  name="UseCaseDiagram" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="9802bb53-2d87-4428-9356-051af0d9b8d1"
+        name="Judge"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="752fa0f9-196b-40ee-9bb7-e071ca141a63"
+            isDerived="false"
+            sourceEndRoleName="Judge"
+            targetEndRoleName="Search and destroy timer"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="24b4da21-3b73-4486-b1dc-57d6706ed24a"
+              LastKnownName="Search and destroy timer"
+              LastKnownLocation="UseCaseDiagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="617320af-9178-4e4b-bab8-a404a85f217e"
+                  name="Judge"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="aad56d8b-a3b8-4413-a579-3028422918da"
+                  name="Search and destroy timer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="375cc013-8947-4ff4-82e0-1c8c754c0a06"
+            isDerived="false"
+            sourceEndRoleName="Judge"
+            targetEndRoleName="Target Group to shoot at"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f1bb7c6a-2c21-4a09-9759-3ab10a8c14d9"
+              LastKnownName="Target Group to shoot at"
+              LastKnownLocation="UseCaseDiagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c85f5813-2e00-4c9c-8ec6-bc37a71b94b9"
+                  name="Judge"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0f11031c-8ed4-48c2-9ac5-4a2d7513d2b0"
+                  name="Target Group to shoot at"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="a59482b2-7e33-433c-9612-102c99c7f020"
+            isDerived="false"
+            sourceEndRoleName="Judge"
+            targetEndRoleName="Live Video Feed"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="9b252ae9-bb63-4c45-a284-21e07b821c30"
+              LastKnownName="Live Video Feed"
+              LastKnownLocation="UseCaseDiagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4908c761-f742-4ed2-ae95-de62f9758cc1"
+                  name="Judge"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fd07b409-fc83-4833-b674-a9a8a1d4c743"
+                  name="Live Video Feed"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="0419da54-b16f-47a6-b6e8-8a33cffb77e0"
+            isDerived="false"
+            sourceEndRoleName="Judge"
+            targetEndRoleName="Target Cycling"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="8dc7625a-0293-4a83-8bd7-4598c58ae38a"
+              LastKnownName="Target Cycling"
+              LastKnownLocation="UseCaseDiagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5d647380-f5f6-4f5a-ac25-49b1bdcac039"
+                  name="Judge"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="db7d79e8-a04e-4cf8-a530-40e6c62ee29f"
+                  name="Target Cycling"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="f021b7f3-2e6f-43d1-b505-50cf125ead80"
+            isDerived="false"
+            sourceEndRoleName="Judge"
+            targetEndRoleName="Search and Destroy"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="74e7eb96-1a46-46df-8322-6d605499c980"
+              LastKnownName="Search and Destroy"
+              LastKnownLocation="UseCaseDiagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4cb9f911-67d0-4400-98ce-445f27a7412a"
+                  name="Judge"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fa64c650-4552-4eb9-a07a-c70a46402f45"
+                  name="Search and Destroy"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="7d3cfe23-7410-4c55-a5d9-571a63132084"
+        name="Josh"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="052d1e42-9653-4ab1-a3a3-f995348e6343"
+            isDerived="false"
+            sourceEndRoleName="Josh"
+            targetEndRoleName="Aim of launcher for move to"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f3e8b0a3-52a6-4634-968a-0073dc3c7671"
+              LastKnownName="Aim of launcher for move to"
+              LastKnownLocation="UseCaseDiagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8f803396-14a3-4f8a-8b73-ec0e5a4b45a6"
+                  name="Josh"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fd2d1438-7c4c-4de0-8cfb-4b6e05ee08f2"
+                  name="Aim of launcher for move to"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="a400a7ac-16ff-45e1-a662-710135a9b5b6"
+            isDerived="false"
+            sourceEndRoleName="Josh"
+            targetEndRoleName="Target Group to shoot at"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f1bb7c6a-2c21-4a09-9759-3ab10a8c14d9"
+              LastKnownName="Target Group to shoot at"
+              LastKnownLocation="UseCaseDiagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6f748679-6818-4012-af60-796b80272c2f"
+                  name="Josh"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="582e0765-f6b5-4bec-ba3c-cd5e134c2ff9"
+                  name="Target Group to shoot at"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="251a70e4-7293-4463-a05d-1668c863c0b4"
+            isDerived="false"
+            sourceEndRoleName="Josh"
+            targetEndRoleName="Live Video Feed"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="9b252ae9-bb63-4c45-a284-21e07b821c30"
+              LastKnownName="Live Video Feed"
+              LastKnownLocation="UseCaseDiagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="570286b5-f6be-4d1b-aaec-7f04c2944372"
+                  name="Josh"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4059dbc8-970c-4778-9be4-92126870a17e"
+                  name="Live Video Feed"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="833873f4-0c48-4d73-8568-053660f91e58"
+        name="Jon"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="a08abced-c15e-43af-85fb-21f85c2da41e"
+            isDerived="false"
+            sourceEndRoleName="Jon"
+            targetEndRoleName="Aim of launcher for move to"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f3e8b0a3-52a6-4634-968a-0073dc3c7671"
+              LastKnownName="Aim of launcher for move to"
+              LastKnownLocation="UseCaseDiagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a29fb33d-d7f0-4568-aa54-d605108da79e"
+                  name="Jon"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="31d9eaab-f3d0-412a-9e66-6a7b67e75f66"
+                  name="Aim of launcher for move to"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="da061f00-0247-494f-823c-302b3b83c4fd"
+            isDerived="false"
+            sourceEndRoleName="Jon"
+            targetEndRoleName="Live Video Feed"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="9b252ae9-bb63-4c45-a284-21e07b821c30"
+              LastKnownName="Live Video Feed"
+              LastKnownLocation="UseCaseDiagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bed5be9c-1eab-4bac-83d7-460a9941237d"
+                  name="Jon"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="63129fbe-ff35-48e3-81a9-c03a07495218"
+                  name="Live Video Feed"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="bcf873c8-dfe8-47ab-a6da-6eb1bbf6e95b"
+        name="Chris"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="1e9cd0d8-5a8f-4b32-8fc8-155527cdb582"
+            isDerived="false"
+            sourceEndRoleName="Chris"
+            targetEndRoleName="Aim of launcher for move to"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f3e8b0a3-52a6-4634-968a-0073dc3c7671"
+              LastKnownName="Aim of launcher for move to"
+              LastKnownLocation="UseCaseDiagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9913be9e-86f1-4d6c-9323-541849b1f106"
+                  name="Chris"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="49480acb-62e4-4bbd-94ab-f9b0781786cd"
+                  name="Aim of launcher for move to"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="4caefb85-a6ee-4dd1-8bbe-ce8ca9af5383"
+            isDerived="false"
+            sourceEndRoleName="Chris"
+            targetEndRoleName="Live Video Feed"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="9b252ae9-bb63-4c45-a284-21e07b821c30"
+              LastKnownName="Live Video Feed"
+              LastKnownLocation="UseCaseDiagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a511ad9c-f592-466a-a745-916f68534b8f"
+                  name="Chris"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c9303cd6-381e-42cf-9682-405fcf2ce063"
+                  name="Live Video Feed"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="74e7eb96-1a46-46df-8322-6d605499c980"
+        name="Search and Destroy"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="8dc7625a-0293-4a83-8bd7-4598c58ae38a"
+        name="Target Cycling"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="032cf687-6c4a-4b64-bfd6-0f8107b31538">
+            <useCaseMoniker
+              Id="74e7eb96-1a46-46df-8322-6d605499c980"
+              LastKnownName="Search and Destroy"
+              LastKnownLocation="UseCaseDiagram.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="9b252ae9-bb63-4c45-a284-21e07b821c30"
+        name="Live Video Feed"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f1bb7c6a-2c21-4a09-9759-3ab10a8c14d9"
+        name="Target Group to shoot at"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="2598fb95-3626-4bdf-8c21-b0daee807bcf"
+            isDerived="false"
+            sourceEndRoleName="Target Group to shoot at"
+            targetEndRoleName="Target Cycling"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="8dc7625a-0293-4a83-8bd7-4598c58ae38a"
+              LastKnownName="Target Cycling"
+              LastKnownLocation="UseCaseDiagram.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="aebe805b-823e-4689-aba3-196ae69bbad4"
+                  name="Target Group to shoot at"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="74108001-ec8e-42fa-a059-3dc69e287d2e"
+                  name="Target Cycling"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <extendedCases>
+          <extend
+            Id="9d625e7a-0f04-4b80-9030-baed9172ca4c">
+            <useCaseMoniker
+              Id="74e7eb96-1a46-46df-8322-6d605499c980"
+              LastKnownName="Search and Destroy"
+              LastKnownLocation="UseCaseDiagram.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f3e8b0a3-52a6-4634-968a-0073dc3c7671"
+        name="Aim of launcher for move to"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="24b4da21-3b73-4486-b1dc-57d6706ed24a"
+        name="Search and destroy timer"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="9dccab6a-029f-4df6-8cc4-1a22a69b77cd">
+            <useCaseMoniker
+              Id="74e7eb96-1a46-46df-8322-6d605499c980"
+              LastKnownName="Search and Destroy"
+              LastKnownLocation="UseCaseDiagram.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="d6e88d6d-a975-41ca-b691-a36ad338f4e5"
+        name="Camera"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <providedInterface
+            Id="d77c2674-d2a2-491f-a916-ac90d6aab5e7"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="58735685-91b4-4a5b-8f78-8a344e52dff5"
+                LastKnownName="Camera provided"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="7665c5a7-18b9-406a-b84f-56592ff9ede6"
+        name="Launcher"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <providedInterface
+            Id="486a6097-835d-4851-b56e-e35da2d2ea7e"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="e432b571-d073-4631-8e2f-9ed0628eba27"
+                LastKnownName="launcher provided"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="b81dc3e1-57b5-4f74-9ef2-8123342a2285"
+        name="FileReader"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <providedInterface
+            Id="42e1d99b-c1cd-4e24-b477-179c1ecdeefe"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="2ca18602-74a4-466a-a400-883e09cf16ee"
+                LastKnownName="file interface provided"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="d97026ee-0742-4bb3-86c1-62067bad01ae"
+        name="Controller"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <requiredInterface
+            Id="c6c2b57c-a041-4f5b-b86f-3258f2e25143"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <suppliersInternal>
+              <dependency
+                Id="a67a389a-e98d-49b5-b883-326100cd744f">
+                <providedInterfaceMoniker
+                  Id="486a6097-835d-4851-b56e-e35da2d2ea7e"
+                  LastKnownName="Port1"
+                  LastKnownLocation="UseCaseDiagram.uml" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="a236611e-64e3-4f7c-844f-e6d1e50b14e2"
+                LastKnownName="Launcher required"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+          <requiredInterface
+            Id="faeb8769-8d8b-4912-8589-9c59e85c39ca"
+            name="Port2"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <suppliersInternal>
+              <dependency
+                Id="f3df47df-d8c6-4eba-bdd2-23871884122b">
+                <providedInterfaceMoniker
+                  Id="b1bc9ce9-7051-42be-a663-0df72f2612d8"
+                  LastKnownName="Port1"
+                  LastKnownLocation="UseCaseDiagram.uml" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="ef65ec13-e331-45d1-a7e7-b208057406b6"
+                LastKnownName="Target required interface"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+          <requiredInterface
+            Id="06180cd6-3006-4d2a-b54e-aed5bc070426"
+            name="Port3"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <suppliersInternal>
+              <dependency
+                Id="014230b0-d15b-4062-9388-62a4e775c2e8">
+                <providedInterfaceMoniker
+                  Id="d77c2674-d2a2-491f-a916-ac90d6aab5e7"
+                  LastKnownName="Port1"
+                  LastKnownLocation="UseCaseDiagram.uml" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="93f4db03-1b16-482a-b764-cf5ae972123e"
+                LastKnownName="camera required"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="41d5ba11-f1e9-4e2b-bc9d-fc7049436f36"
+        name="Targets"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <providedInterface
+            Id="b1bc9ce9-7051-42be-a663-0df72f2612d8"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="f158b640-957f-4e37-99c7-195fd50a3526"
+                LastKnownName="Target interface"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </type_NamedElement>
+          </providedInterface>
+          <requiredInterface
+            Id="a2f530fd-aa04-4122-8378-a530c51bfecc"
+            name="Port2"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <suppliersInternal>
+              <dependency
+                Id="d3d479cd-ff15-44b9-ba18-1ce7367b1ce0">
+                <providedInterfaceMoniker
+                  Id="42e1d99b-c1cd-4e24-b477-179c1ecdeefe"
+                  LastKnownName="Port1"
+                  LastKnownLocation="UseCaseDiagram.uml" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="1a445bda-dc9b-4afb-89b8-90df08360132"
+                LastKnownName="File interface needed"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+          <requiredInterface
+            Id="89c3f1b6-50ce-41d9-b2b1-08a84b2e522a"
+            name="Port3"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <suppliersInternal>
+              <dependency
+                Id="782faade-1005-48bb-89da-ae95bc939f31">
+                <providedInterfaceMoniker
+                  Id="d77c2674-d2a2-491f-a916-ac90d6aab5e7"
+                  LastKnownName="Port1"
+                  LastKnownLocation="UseCaseDiagram.uml" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="f60ca73e-9b41-483d-912a-ce7983f4d057"
+                LastKnownName="Camera required"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="a236611e-64e3-4f7c-844f-e6d1e50b14e2"
+        name="Launcher required"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="e432b571-d073-4631-8e2f-9ed0628eba27"
+        name="launcher provided"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="ef65ec13-e331-45d1-a7e7-b208057406b6"
+        name="Target required interface"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="f158b640-957f-4e37-99c7-195fd50a3526"
+        name="Target interface"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="1a445bda-dc9b-4afb-89b8-90df08360132"
+        name="File interface needed"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="f60ca73e-9b41-483d-912a-ce7983f4d057"
+        name="Camera required"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="93f4db03-1b16-482a-b764-cf5ae972123e"
+        name="camera required"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="2ca18602-74a4-466a-a400-883e09cf16ee"
+        name="file interface provided"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="58735685-91b4-4a5b-8f78-8a344e52dff5"
+        name="Camera provided"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="954051aa-18c4-4686-9b5f-8277aac56141"
+        name="Sequence1"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="a6e6fef8-e6f5-4c80-89cc-a2378dbddeb5"
+            name="BehaviorExecutionSpecification7">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="40e012d3-38b3-47f6-b825-f9ce41a61556"
+                LastKnownName="Judge"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="bdf160de-60c4-4915-8521-5529daed8a80"
+                LastKnownName="ExecutionOccurrenceSpecification14"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="4a9f9b47-7826-4a76-b39b-3a73f75e3329"
+                LastKnownName="ExecutionOccurrenceSpecification13"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="fdfc1f65-9caf-48b4-9679-8defadfd7d7c"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="UseCaseDiagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="d7943a46-c83d-4c88-9010-b01f5d5e16a3"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="4a9f9b47-7826-4a76-b39b-3a73f75e3329"
+            name="ExecutionOccurrenceSpecification13">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="0cdbee52-b1ea-4841-86bb-9b8f72d17e05"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="UseCaseDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="40e012d3-38b3-47f6-b825-f9ce41a61556"
+                LastKnownName="Judge"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <lostFoundTarget
+            Id="e4e6c032-6d9a-4838-ad0a-c820f4484f2c"
+            name="LostFoundTarget2" />
+          <messageOccurrenceSpecification
+            Id="fdfc1f65-9caf-48b4-9679-8defadfd7d7c"
+            name="MessageOccurrenceSpecification18">
+            <covered>
+              <lifelineMoniker
+                Id="40e012d3-38b3-47f6-b825-f9ce41a61556"
+                LastKnownName="Judge"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="a44a8608-32df-40c9-8ee1-af040a05bd83"
+            name="BehaviorExecutionSpecification8">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="ca11ba66-6469-4aa5-b23f-4c749295e2b2"
+                LastKnownName="Target manager"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="4b790854-e025-450c-8669-fd6f9caad805"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="9cfceaed-b7f9-4652-9769-da3b197a4064"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="356080d9-d50a-4bc0-9dce-fe6ff8746df5"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="9cfceaed-b7f9-4652-9769-da3b197a4064"
+            name="ExecutionOccurrenceSpecification15">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="6f6c1241-04b2-4d66-8910-d24d1f75b5e1"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="UseCaseDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="ca11ba66-6469-4aa5-b23f-4c749295e2b2"
+                LastKnownName="Target manager"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d7943a46-c83d-4c88-9010-b01f5d5e16a3"
+            name="MessageOccurrenceSpecification19">
+            <covered>
+              <lifelineMoniker
+                Id="40e012d3-38b3-47f6-b825-f9ce41a61556"
+                LastKnownName="Judge"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="356080d9-d50a-4bc0-9dce-fe6ff8746df5"
+            name="MessageOccurrenceSpecification20">
+            <covered>
+              <lifelineMoniker
+                Id="ca11ba66-6469-4aa5-b23f-4c749295e2b2"
+                LastKnownName="Target manager"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="bdf160de-60c4-4915-8521-5529daed8a80"
+            name="ExecutionOccurrenceSpecification14">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="99174848-9d77-4aef-b81a-75c97c3aef7d"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="UseCaseDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="40e012d3-38b3-47f6-b825-f9ce41a61556"
+                LastKnownName="Judge"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="4b790854-e025-450c-8669-fd6f9caad805"
+            name="ExecutionOccurrenceSpecification16">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="c10ad355-a51b-4753-a951-65a70f7f662e"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="UseCaseDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="ca11ba66-6469-4aa5-b23f-4c749295e2b2"
+                LastKnownName="Target manager"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="4775a8f1-97ad-4829-a9cc-2555057d288c"
+            name="BehaviorExecutionSpecification9">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="40e012d3-38b3-47f6-b825-f9ce41a61556"
+                LastKnownName="Judge"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="4bd6b313-49ca-4866-bfba-e30f0b8c9a55"
+                LastKnownName="ExecutionOccurrenceSpecification18"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="7b6ac416-7a24-4322-9d0d-ad51254d920a"
+                LastKnownName="ExecutionOccurrenceSpecification17"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="b5a6de74-131e-4324-a63d-bc5d55757727"
+                LastKnownName="MessageOccurrenceSpecification21"
+                LastKnownLocation="UseCaseDiagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="586c5940-a48a-4ab9-a33e-c00c37ef2293"
+                LastKnownName="MessageOccurrenceSpecification22"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="7b6ac416-7a24-4322-9d0d-ad51254d920a"
+            name="ExecutionOccurrenceSpecification17">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="bd4b1f12-3403-41bc-b488-caf81fc6e531"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="UseCaseDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="40e012d3-38b3-47f6-b825-f9ce41a61556"
+                LastKnownName="Judge"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <lostFoundTarget
+            Id="0c73bddf-2b6c-41e7-ac9f-ce59129edacb"
+            name="LostFoundTarget3" />
+          <messageOccurrenceSpecification
+            Id="b5a6de74-131e-4324-a63d-bc5d55757727"
+            name="MessageOccurrenceSpecification21">
+            <covered>
+              <lifelineMoniker
+                Id="40e012d3-38b3-47f6-b825-f9ce41a61556"
+                LastKnownName="Judge"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="c02130c3-9e46-41f9-a18b-fa84e970d071"
+            name="BehaviorExecutionSpecification10">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="16a3c0c3-fc2c-47ef-88d2-e8e809264d5e"
+                LastKnownName="Search and destroy"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="c2213e09-9a35-4737-bf26-ee95776fe20c"
+                LastKnownName="ExecutionOccurrenceSpecification20"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="85814ff7-7dad-417c-8bae-aba0f8c3539f"
+                LastKnownName="ExecutionOccurrenceSpecification19"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="3590493c-1664-4f42-bc78-eebf4c658ab8"
+                LastKnownName="MessageOccurrenceSpecification23"
+                LastKnownLocation="UseCaseDiagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="55ea6d75-9073-4723-9625-f3021d95891f"
+                LastKnownName="MessageOccurrenceSpecification26"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="85814ff7-7dad-417c-8bae-aba0f8c3539f"
+            name="ExecutionOccurrenceSpecification19">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="71a1f4fa-9b5a-485c-89d3-0ab211bd4e98"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="UseCaseDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="16a3c0c3-fc2c-47ef-88d2-e8e809264d5e"
+                LastKnownName="Search and destroy"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="586c5940-a48a-4ab9-a33e-c00c37ef2293"
+            name="MessageOccurrenceSpecification22">
+            <covered>
+              <lifelineMoniker
+                Id="40e012d3-38b3-47f6-b825-f9ce41a61556"
+                LastKnownName="Judge"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3590493c-1664-4f42-bc78-eebf4c658ab8"
+            name="MessageOccurrenceSpecification23">
+            <covered>
+              <lifelineMoniker
+                Id="16a3c0c3-fc2c-47ef-88d2-e8e809264d5e"
+                LastKnownName="Search and destroy"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="4bd6b313-49ca-4866-bfba-e30f0b8c9a55"
+            name="ExecutionOccurrenceSpecification18">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="7310464e-6744-46a1-ba3b-bcd0fd2de0f2"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="UseCaseDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="40e012d3-38b3-47f6-b825-f9ce41a61556"
+                LastKnownName="Judge"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="ea965837-dd40-4870-9c67-202cf78e55e8"
+            name="BehaviorExecutionSpecification12">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="af4bfcdd-adc9-460f-b738-df72f5401d43"
+                LastKnownName="Launcher"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="172e8967-e839-4bf8-bd6d-6bfdabe08e07"
+                LastKnownName="ExecutionOccurrenceSpecification24"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="b581b4b4-ac27-4ae3-9a6f-53ed5ce6f543"
+                LastKnownName="ExecutionOccurrenceSpecification23"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="287b4b02-9d3b-4578-8d43-73ae132d48b8"
+                LastKnownName="MessageOccurrenceSpecification27"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="b581b4b4-ac27-4ae3-9a6f-53ed5ce6f543"
+            name="ExecutionOccurrenceSpecification23">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="29ff5a9a-8da0-47dc-9c47-b613cafe50eb"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="UseCaseDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="af4bfcdd-adc9-460f-b738-df72f5401d43"
+                LastKnownName="Launcher"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="55ea6d75-9073-4723-9625-f3021d95891f"
+            name="MessageOccurrenceSpecification26">
+            <covered>
+              <lifelineMoniker
+                Id="16a3c0c3-fc2c-47ef-88d2-e8e809264d5e"
+                LastKnownName="Search and destroy"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="287b4b02-9d3b-4578-8d43-73ae132d48b8"
+            name="MessageOccurrenceSpecification27">
+            <covered>
+              <lifelineMoniker
+                Id="af4bfcdd-adc9-460f-b738-df72f5401d43"
+                LastKnownName="Launcher"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="172e8967-e839-4bf8-bd6d-6bfdabe08e07"
+            name="ExecutionOccurrenceSpecification24">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="275068c0-ad39-4e25-807b-a55f709c9748"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="UseCaseDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="af4bfcdd-adc9-460f-b738-df72f5401d43"
+                LastKnownName="Launcher"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <combinedFragment
+            Id="751a40fc-ac5b-43c4-bc75-490c3d179901"
+            name="CombinedFragment1"
+            interactionOperator="Loop">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="ca11ba66-6469-4aa5-b23f-4c749295e2b2"
+                LastKnownName="Target manager"
+                LastKnownLocation="UseCaseDiagram.uml" />
+              <lifelineMoniker
+                Id="af4bfcdd-adc9-460f-b738-df72f5401d43"
+                LastKnownName="Launcher"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </coveredLifelines>
+            <operands>
+              <interactionOperand
+                Id="ecdd18ac-efc0-4fb2-9285-eb41b0db33ab"
+                name="InteractionOperand1">
+                <coveredLifelines>
+                  <lifelineMoniker
+                    Id="ca11ba66-6469-4aa5-b23f-4c749295e2b2"
+                    LastKnownName="Target manager"
+                    LastKnownLocation="UseCaseDiagram.uml" />
+                  <lifelineMoniker
+                    Id="af4bfcdd-adc9-460f-b738-df72f5401d43"
+                    LastKnownName="Launcher"
+                    LastKnownLocation="UseCaseDiagram.uml" />
+                </coveredLifelines>
+                <guard>
+                  <interactionConstraint
+                    Id="ca5205b5-10b9-40a2-81bc-47df9dad7d08"
+                    guardText="For each target">
+                    <maxInt>
+                      <literalString
+                        Id="5223bae6-c27b-4b1c-b22b-124b124b51e9"
+                        name="LiteralString1" />
+                    </maxInt>
+                    <minInt>
+                      <literalString
+                        Id="55cc201c-a161-4a90-bfe5-cb3703a21836"
+                        name="LiteralString2" />
+                    </minInt>
+                  </interactionConstraint>
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker
+                    Id="32e81119-f5af-4e85-a8b0-5e54b5e92527"
+                    LastKnownName="OperandOccurrenceSpecification5"
+                    LastKnownLocation="UseCaseDiagram.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="246348b3-04e6-478b-b844-af09694873fb"
+                    LastKnownName="OperandOccurrenceSpecification6"
+                    LastKnownLocation="UseCaseDiagram.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="b80f22dc-3c5c-44f9-a4ae-7125e24a51ee"
+                    LastKnownName="OperandOccurrenceSpecification7"
+                    LastKnownLocation="UseCaseDiagram.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="e280d894-a5f3-4971-8d11-e24ce4069c86"
+                    LastKnownName="OperandOccurrenceSpecification8"
+                    LastKnownLocation="UseCaseDiagram.uml" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+            </operands>
+          </combinedFragment>
+          <operandOccurrenceSpecification
+            Id="32e81119-f5af-4e85-a8b0-5e54b5e92527"
+            name="OperandOccurrenceSpecification5">
+            <covered>
+              <lifelineMoniker
+                Id="ca11ba66-6469-4aa5-b23f-4c749295e2b2"
+                LastKnownName="Target manager"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="b80f22dc-3c5c-44f9-a4ae-7125e24a51ee"
+            name="OperandOccurrenceSpecification7">
+            <covered>
+              <lifelineMoniker
+                Id="af4bfcdd-adc9-460f-b738-df72f5401d43"
+                LastKnownName="Launcher"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="c2213e09-9a35-4737-bf26-ee95776fe20c"
+            name="ExecutionOccurrenceSpecification20">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="337f8c32-3c91-4817-957a-5be62773703d"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="UseCaseDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="16a3c0c3-fc2c-47ef-88d2-e8e809264d5e"
+                LastKnownName="Search and destroy"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="a6532093-4e57-4730-9c87-ea8c0536f668"
+            name="BehaviorExecutionSpecification13">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="ca11ba66-6469-4aa5-b23f-4c749295e2b2"
+                LastKnownName="Target manager"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="448c4ae2-55d0-4787-81e5-b4763d76e412"
+                LastKnownName="ExecutionOccurrenceSpecification26"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="7414c982-2f59-4a9e-8826-38d15032814f"
+                LastKnownName="ExecutionOccurrenceSpecification25"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="15396fdf-4182-4db3-a80d-9ee2fe3f4749"
+                LastKnownName="MessageOccurrenceSpecification29"
+                LastKnownLocation="UseCaseDiagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="6693ca7f-0ecf-40cf-a04f-bd4c124a80b0"
+                LastKnownName="MessageOccurrenceSpecification30"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="7414c982-2f59-4a9e-8826-38d15032814f"
+            name="ExecutionOccurrenceSpecification25">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="d0b73ed5-e370-4a58-8f96-b6097a6ff2cf"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="UseCaseDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="ca11ba66-6469-4aa5-b23f-4c749295e2b2"
+                LastKnownName="Target manager"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c0dfe341-09c7-41ac-a309-932d18f30ca6"
+            name="MessageOccurrenceSpecification28">
+            <covered>
+              <lifelineMoniker
+                Id="af4bfcdd-adc9-460f-b738-df72f5401d43"
+                LastKnownName="Launcher"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="15396fdf-4182-4db3-a80d-9ee2fe3f4749"
+            name="MessageOccurrenceSpecification29">
+            <covered>
+              <lifelineMoniker
+                Id="ca11ba66-6469-4aa5-b23f-4c749295e2b2"
+                LastKnownName="Target manager"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="6693ca7f-0ecf-40cf-a04f-bd4c124a80b0"
+            name="MessageOccurrenceSpecification30">
+            <covered>
+              <lifelineMoniker
+                Id="ca11ba66-6469-4aa5-b23f-4c749295e2b2"
+                LastKnownName="Target manager"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="96d23b1a-3596-4661-99b3-19bbc7a02c83"
+            name="MessageOccurrenceSpecification31">
+            <covered>
+              <lifelineMoniker
+                Id="af4bfcdd-adc9-460f-b738-df72f5401d43"
+                LastKnownName="Launcher"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="448c4ae2-55d0-4787-81e5-b4763d76e412"
+            name="ExecutionOccurrenceSpecification26">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="f0db919d-a8fd-40f4-a374-e31a1a65c531"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="UseCaseDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="ca11ba66-6469-4aa5-b23f-4c749295e2b2"
+                LastKnownName="Target manager"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="2ea78ae2-4926-4410-86bb-59a0cd50d5f3"
+            name="MessageOccurrenceSpecification34">
+            <covered>
+              <lifelineMoniker
+                Id="af4bfcdd-adc9-460f-b738-df72f5401d43"
+                LastKnownName="Launcher"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="e1dc3a85-9d73-469a-9939-34141ad0c5b3"
+            name="BehaviorExecutionSpecification15">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="af4bfcdd-adc9-460f-b738-df72f5401d43"
+                LastKnownName="Launcher"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="2026792c-d28d-4d3a-8687-627c83595ea8"
+                LastKnownName="ExecutionOccurrenceSpecification30"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="2f6b019a-2a1d-4894-8644-1b31f2f0f739"
+                LastKnownName="ExecutionOccurrenceSpecification29"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="f9e75949-0ba5-4f9a-a68a-46d83c495eda"
+                LastKnownName="MessageOccurrenceSpecification35"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="2f6b019a-2a1d-4894-8644-1b31f2f0f739"
+            name="ExecutionOccurrenceSpecification29">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="07c96a99-f342-4eaf-905a-784b7b5dc410"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="UseCaseDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="af4bfcdd-adc9-460f-b738-df72f5401d43"
+                LastKnownName="Launcher"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f9e75949-0ba5-4f9a-a68a-46d83c495eda"
+            name="MessageOccurrenceSpecification35">
+            <covered>
+              <lifelineMoniker
+                Id="af4bfcdd-adc9-460f-b738-df72f5401d43"
+                LastKnownName="Launcher"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="2026792c-d28d-4d3a-8687-627c83595ea8"
+            name="ExecutionOccurrenceSpecification30">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="9c432462-3921-4d03-8fd5-d3dd0b32034b"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="UseCaseDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="af4bfcdd-adc9-460f-b738-df72f5401d43"
+                LastKnownName="Launcher"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="246348b3-04e6-478b-b844-af09694873fb"
+            name="OperandOccurrenceSpecification6">
+            <covered>
+              <lifelineMoniker
+                Id="ca11ba66-6469-4aa5-b23f-4c749295e2b2"
+                LastKnownName="Target manager"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="e280d894-a5f3-4971-8d11-e24ce4069c86"
+            name="OperandOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="af4bfcdd-adc9-460f-b738-df72f5401d43"
+                LastKnownName="Launcher"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="40e012d3-38b3-47f6-b825-f9ce41a61556"
+            name="Judge"
+            isActor="true"
+            lifelineDisplayName="Judge">
+            <represents>
+              <propertyMoniker
+                Id="751ba410-0338-4502-93d5-0dc77983c273"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="4a9f9b47-7826-4a76-b39b-3a73f75e3329"
+                LastKnownName="ExecutionOccurrenceSpecification13"
+                LastKnownLocation="UseCaseDiagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="bdf160de-60c4-4915-8521-5529daed8a80"
+                LastKnownName="ExecutionOccurrenceSpecification14"
+                LastKnownLocation="UseCaseDiagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="7b6ac416-7a24-4322-9d0d-ad51254d920a"
+                LastKnownName="ExecutionOccurrenceSpecification17"
+                LastKnownLocation="UseCaseDiagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="4bd6b313-49ca-4866-bfba-e30f0b8c9a55"
+                LastKnownName="ExecutionOccurrenceSpecification18"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="af4bfcdd-adc9-460f-b738-df72f5401d43"
+            name="Launcher"
+            isActor="false"
+            lifelineDisplayName="Launcher">
+            <represents>
+              <propertyMoniker
+                Id="7bc1eb94-b323-41b1-9ae3-c5ac80bff631"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="b581b4b4-ac27-4ae3-9a6f-53ed5ce6f543"
+                LastKnownName="ExecutionOccurrenceSpecification23"
+                LastKnownLocation="UseCaseDiagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="172e8967-e839-4bf8-bd6d-6bfdabe08e07"
+                LastKnownName="ExecutionOccurrenceSpecification24"
+                LastKnownLocation="UseCaseDiagram.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="b80f22dc-3c5c-44f9-a4ae-7125e24a51ee"
+                LastKnownName="OperandOccurrenceSpecification7"
+                LastKnownLocation="UseCaseDiagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="c0dfe341-09c7-41ac-a309-932d18f30ca6"
+                LastKnownName="MessageOccurrenceSpecification28"
+                LastKnownLocation="UseCaseDiagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="96d23b1a-3596-4661-99b3-19bbc7a02c83"
+                LastKnownName="MessageOccurrenceSpecification31"
+                LastKnownLocation="UseCaseDiagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="2ea78ae2-4926-4410-86bb-59a0cd50d5f3"
+                LastKnownName="MessageOccurrenceSpecification34"
+                LastKnownLocation="UseCaseDiagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="2f6b019a-2a1d-4894-8644-1b31f2f0f739"
+                LastKnownName="ExecutionOccurrenceSpecification29"
+                LastKnownLocation="UseCaseDiagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="2026792c-d28d-4d3a-8687-627c83595ea8"
+                LastKnownName="ExecutionOccurrenceSpecification30"
+                LastKnownLocation="UseCaseDiagram.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="e280d894-a5f3-4971-8d11-e24ce4069c86"
+                LastKnownName="OperandOccurrenceSpecification8"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="ca11ba66-6469-4aa5-b23f-4c749295e2b2"
+            name="Target manager"
+            isActor="false"
+            lifelineDisplayName="Target manager">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="9cfceaed-b7f9-4652-9769-da3b197a4064"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="UseCaseDiagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="4b790854-e025-450c-8669-fd6f9caad805"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="UseCaseDiagram.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="32e81119-f5af-4e85-a8b0-5e54b5e92527"
+                LastKnownName="OperandOccurrenceSpecification5"
+                LastKnownLocation="UseCaseDiagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="7414c982-2f59-4a9e-8826-38d15032814f"
+                LastKnownName="ExecutionOccurrenceSpecification25"
+                LastKnownLocation="UseCaseDiagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="448c4ae2-55d0-4787-81e5-b4763d76e412"
+                LastKnownName="ExecutionOccurrenceSpecification26"
+                LastKnownLocation="UseCaseDiagram.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="246348b3-04e6-478b-b844-af09694873fb"
+                LastKnownName="OperandOccurrenceSpecification6"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="16a3c0c3-fc2c-47ef-88d2-e8e809264d5e"
+            name="Search and destroy"
+            isActor="false"
+            lifelineDisplayName="Search and destroy">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="85814ff7-7dad-417c-8bae-aba0f8c3539f"
+                LastKnownName="ExecutionOccurrenceSpecification19"
+                LastKnownLocation="UseCaseDiagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="c2213e09-9a35-4737-bf26-ee95776fe20c"
+                LastKnownName="ExecutionOccurrenceSpecification20"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="4c6b574f-ce9e-4d86-86a2-ec3744b220d3"
+            name="target file"
+            messageKind="Found"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <lostFoundTargetMoniker
+                Id="e4e6c032-6d9a-4838-ad0a-c820f4484f2c"
+                LastKnownName="LostFoundTarget2"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="fdfc1f65-9caf-48b4-9679-8defadfd7d7c"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="ca5eb534-0717-4790-ba2a-161f87cc4d83"
+            name="target list"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="d7943a46-c83d-4c88-9010-b01f5d5e16a3"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="356080d9-d50a-4bc0-9dce-fe6ff8746df5"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="037dc4a3-c091-4f17-a412-5012973f9635"
+            name="Search and destroy button"
+            messageKind="Found"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <lostFoundTargetMoniker
+                Id="0c73bddf-2b6c-41e7-ac9f-ce59129edacb"
+                LastKnownName="LostFoundTarget3"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b5a6de74-131e-4324-a63d-bc5d55757727"
+                LastKnownName="MessageOccurrenceSpecification21"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="fed0b0a1-e31d-4907-9c74-aefa9a81064a"
+            name="start search and destroy"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="586c5940-a48a-4ab9-a33e-c00c37ef2293"
+                LastKnownName="MessageOccurrenceSpecification22"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3590493c-1664-4f42-bc78-eebf4c658ab8"
+                LastKnownName="MessageOccurrenceSpecification23"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="533b8427-de6d-492c-93ca-37e1e757181d"
+            name="acquire targets"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="55ea6d75-9073-4723-9625-f3021d95891f"
+                LastKnownName="MessageOccurrenceSpecification26"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="287b4b02-9d3b-4578-8d43-73ae132d48b8"
+                LastKnownName="MessageOccurrenceSpecification27"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="b2fb90e2-1893-4b90-a80b-bdcab913e222"
+            name="Need target"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c0dfe341-09c7-41ac-a309-932d18f30ca6"
+                LastKnownName="MessageOccurrenceSpecification28"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="15396fdf-4182-4db3-a80d-9ee2fe3f4749"
+                LastKnownName="MessageOccurrenceSpecification29"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="be6d048f-8dd4-46e3-91fb-81e4a7be0e61"
+            name="&lt;&lt;return target&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="6693ca7f-0ecf-40cf-a04f-bd4c124a80b0"
+                LastKnownName="MessageOccurrenceSpecification30"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="96d23b1a-3596-4661-99b3-19bbc7a02c83"
+                LastKnownName="MessageOccurrenceSpecification31"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="6246e74e-00b5-4cd8-a7ed-266ab889bd48"
+            name="Fire at target"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="2ea78ae2-4926-4410-86bb-59a0cd50d5f3"
+                LastKnownName="MessageOccurrenceSpecification34"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f9e75949-0ba5-4f9a-a68a-46d83c495eda"
+                LastKnownName="MessageOccurrenceSpecification35"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+        <ownedAttributesInternal>
+          <property
+            Id="751ba410-0338-4502-93d5-0dc77983c273"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <actorMoniker
+                Id="9802bb53-2d87-4428-9356-051af0d9b8d1"
+                LastKnownName="Judge"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7bc1eb94-b323-41b1-9ae3-c5ac80bff631"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <componentMoniker
+                Id="7665c5a7-18b9-406a-b84f-56592ff9ede6"
+                LastKnownName="Launcher"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="608657ae-8a9a-4470-915b-2f50cb8586de"
+        name="Message1"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="49ed7d88-4277-458e-ae96-f37593eab4e8"
+            name="BehaviorExecutionSpecification3">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="b6a32e09-364c-407a-98c8-9a415708cada"
+                LastKnownName="Judge"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="0555c4b6-7b53-414f-98a7-0fe959083b45"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="5a574fe9-c489-4d92-bf7d-7efdc65f2874"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="2ff01344-9b53-4db7-a9a8-a2723a49dcf0"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="5a574fe9-c489-4d92-bf7d-7efdc65f2874"
+            name="ExecutionOccurrenceSpecification5">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="4dc1ddfc-f108-4424-888a-ecd6c534b95b"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="UseCaseDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="b6a32e09-364c-407a-98c8-9a415708cada"
+                LastKnownName="Judge"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="79228cac-e45e-4f89-8528-a643dce75bda"
+            name="MessageOccurrenceSpecification7">
+            <covered>
+              <lifelineMoniker
+                Id="d13e3c56-f037-4aae-bf01-ae1d8acff6ef"
+                LastKnownName="Target manager"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="2ff01344-9b53-4db7-a9a8-a2723a49dcf0"
+            name="MessageOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="b6a32e09-364c-407a-98c8-9a415708cada"
+                LastKnownName="Judge"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="0555c4b6-7b53-414f-98a7-0fe959083b45"
+            name="ExecutionOccurrenceSpecification6">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="8f24dd7e-eb0b-4336-810e-2402d2e1344d"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="UseCaseDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="b6a32e09-364c-407a-98c8-9a415708cada"
+                LastKnownName="Judge"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="b6a32e09-364c-407a-98c8-9a415708cada"
+            name="Judge"
+            isActor="true"
+            lifelineDisplayName="Judge">
+            <represents>
+              <propertyMoniker
+                Id="26c5fc0b-e97d-4e99-871c-c2b5432c4975"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="5a574fe9-c489-4d92-bf7d-7efdc65f2874"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="UseCaseDiagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="0555c4b6-7b53-414f-98a7-0fe959083b45"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="d13e3c56-f037-4aae-bf01-ae1d8acff6ef"
+            name="Target manager"
+            isActor="false"
+            lifelineDisplayName="Target manager">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="79228cac-e45e-4f89-8528-a643dce75bda"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="7bd66401-4d41-477e-b425-b07de892940c"
+            name="Message1"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="79228cac-e45e-4f89-8528-a643dce75bda"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="2ff01344-9b53-4db7-a9a8-a2723a49dcf0"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+        <ownedAttributesInternal>
+          <property
+            Id="26c5fc0b-e97d-4e99-871c-c2b5432c4975"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <actorMoniker
+                Id="9802bb53-2d87-4428-9356-051af0d9b8d1"
+                LastKnownName="Judge"
+                LastKnownLocation="UseCaseDiagram.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="4dc1ddfc-f108-4424-888a-ecd6c534b95b"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="8f24dd7e-eb0b-4336-810e-2402d2e1344d"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="0cdbee52-b1ea-4841-86bb-9b8f72d17e05"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="99174848-9d77-4aef-b81a-75c97c3aef7d"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="6f6c1241-04b2-4d66-8910-d24d1f75b5e1"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="c10ad355-a51b-4753-a951-65a70f7f662e"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="bd4b1f12-3403-41bc-b488-caf81fc6e531"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="7310464e-6744-46a1-ba3b-bcd0fd2de0f2"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="71a1f4fa-9b5a-485c-89d3-0ab211bd4e98"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="337f8c32-3c91-4817-957a-5be62773703d"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="29ff5a9a-8da0-47dc-9c47-b613cafe50eb"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="275068c0-ad39-4e25-807b-a55f709c9748"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="d0b73ed5-e370-4a58-8f96-b6097a6ff2cf"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="f0db919d-a8fd-40f4-a374-e31a1a65c531"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="07c96a99-f342-4eaf-905a-784b7b5dc410"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="9c432462-3921-4d03-8fd5-d3dd0b32034b"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

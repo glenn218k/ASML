@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- ignores this line -->
+<Targets>
+	
+<Target Name="alpha"   xPos="9" yPos="30"  zPos="324"  isFriend="True"/>
+	<Target Name="beta"    xPos="-11" yPos="6"  zPos="5"    isFriend="False"/>
+	<Target Name="victor"  xPos="11" yPos="10" zPos="5"    isFriend="False"/>
+  
+<Target Name="charlie" xPos="-10" yPos="34" zPos="34"    isFriend="False"/>
+</Targets>
