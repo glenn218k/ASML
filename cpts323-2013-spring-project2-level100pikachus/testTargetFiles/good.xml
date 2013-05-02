@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="us-ascii"?>
-<Targets>
-  <Target Name="bob" isFriend="True" zPos="324" yPos="100" xPos="336" />
-  <Target Name="noob" isFriend="False" zPos="355" yPos="100" xPos="445" />
-  <Target Name="lol" isFriend="False" zPos="255" yPos="100" xPos="224" />
-</Targets>
