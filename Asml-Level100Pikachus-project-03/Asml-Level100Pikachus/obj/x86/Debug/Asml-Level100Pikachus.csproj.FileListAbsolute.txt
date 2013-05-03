@@ -24,3 +24,6 @@ C:\Users\Christopher Knight\Documents\GitHub\ASML\cpts323-2013-spring-project-03
 C:\Users\Christopher Knight\Documents\GitHub\ASML\cpts323-2013-spring-project-03-level100pikachus\Asml-Level100Pikachus-project-03\Asml-Level100Pikachus\obj\x86\Debug\Asml_Level100Pikachus.Asml.resources
 C:\Users\Christopher Knight\Documents\GitHub\ASML\cpts323-2013-spring-project-03-level100pikachus\Asml-Level100Pikachus-project-03\Asml-Level100Pikachus\obj\x86\Debug\Asml_Level100Pikachus.Properties.Resources.resources
 C:\Users\Christopher Knight\Documents\GitHub\ASML\cpts323-2013-spring-project-03-level100pikachus\Asml-Level100Pikachus-project-03\Asml-Level100Pikachus\obj\x86\Debug\Asml-Level100Pikachus.csproj.GenerateResource.Cache
+C:\Users\Christopher Knight\Documents\GitHub\ASML\Asml-Level100Pikachus-project-03\Asml-Level100Pikachus\bin\x86\Debug\Asml-Level100Pikachus.exe.config
+C:\Users\Christopher Knight\Documents\GitHub\ASML\Asml-Level100Pikachus-project-03\Asml-Level100Pikachus\obj\x86\Debug\Asml-Level100Pikachus.exe
+C:\Users\Christopher Knight\Documents\GitHub\ASML\Asml-Level100Pikachus-project-03\Asml-Level100Pikachus\obj\x86\Debug\Asml-Level100Pikachus.pdb
