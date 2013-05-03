@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="24411437-bc7b-4a51-802a-89878d53deec"
+  name="ModelingProject1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <ownedCommentsInternal>
+    <comment
+      Id="404b7986-a6c6-46e0-9e73-28cdfb53a8f1">
+      <body>Strategy pattern for search and destroy.  A different algoritm for each different target types</body>
+    </comment>
+    <comment
+      Id="18940f97-c266-4b17-8b7f-2315f8c974ac">
+      <body>This is the controller class.  It acts as our mediator sending messages to the various modules.</body>
+    </comment>
+    <comment
+      Id="77e44a51-5f52-4efd-bef6-55e0c87008f1">
+      <body>The camera is opur observer.  It has an event that it sends to the GUI</body>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="6196457f-c867-4d93-bd8e-ef3bd6de5928">
+      <profileInstance
+        Id="9d162b6c-becc-4a33-89af-0d2a4af81526"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="f13221b4-cab7-4191-951c-ec8d5aa36bc6"
+        LastKnownName="Asml_Level100Pikachus"
+        LastKnownLocation="Package_1309.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="608d8ec7-81b0-4ccb-898d-d2b1cbc145f2"
+        LastKnownName="System"
+        LastKnownLocation="Package_1311.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="f8fe9e84-9bb1-4309-903d-789c79102e87"
+        LastKnownName="ASMLEngineSdk"
+        LastKnownLocation="Package3_1311.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="eefcf0bd-833f-4a5c-bd69-b5a5cc9ec1b3"
+        LastKnownName="BuildDefender"
+        LastKnownLocation="Package7_1311.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="f12521f1-8bb7-40af-ac55-9356faf49905"
+        LastKnownName="UsbLibrary"
+        LastKnownLocation="Package_1612.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="35e8d432-cede-4eca-834b-4baeeb023acb"
+        name="Camera"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="3245b8b2-fbf8-441d-aefa-0c7ee76befc3">
+            <classMoniker
+              Id="b13c8cc8-e030-4150-aa49-a1e7fe66978e"
+              LastKnownName="Controller"
+              LastKnownLocation="Package_1309.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="28393a31-c90d-43b3-a569-ed8aabb8900b"
+            name="Camera m_camera"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="297b08d9-d56a-4a03-94c7-ede008ce79b5"
+            name="Capture cap"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="da67230d-5e63-4142-8a54-8ef615af8c7f"
+            name="GetInstance"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="45006351-d68b-44b1-88a7-1f863c862df5"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="35e8d432-cede-4eca-834b-4baeeb023acb"
+                      LastKnownName="Camera"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e527de2d-9826-42dc-a451-7ad4b6f41202"
+            name="Camera"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c578f581-3969-4d2f-8028-a6a0db680741"
+        name="PositionManager"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="494d89e1-ef90-4c34-8ced-4e51284d80b5">
+            <classMoniker
+              Id="a30d4391-ac60-4883-bbaa-17a1d022383b"
+              LastKnownName="MissileLauncherAdapter"
+              LastKnownLocation="Package_1309.uml" />
+          </dependency>
+          <dependency
+            Id="24e2ec50-9973-400f-9034-9a2c66619a2c">
+            <classMoniker
+              Id="b13c8cc8-e030-4150-aa49-a1e7fe66978e"
+              LastKnownName="Controller"
+              LastKnownLocation="Package_1309.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="186ca1d8-5cf9-4ac4-b6d4-10894ef66004"
+            name="PositionManager m_pmanager"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="6644a5d6-ad4c-4719-ba42-e56335e1e168"
+            name="GetInstance"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="0c1ee9a8-add3-4f15-8a60-7d847482f4ad"
+            name="Reset"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="59ba4555-d044-4855-9b5f-98481042bdbc"
+        name="SD"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="30274c91-770a-49a0-aa26-b14e3d71cff8">
+            <classMoniker
+              Id="b13c8cc8-e030-4150-aa49-a1e7fe66978e"
+              LastKnownName="Controller"
+              LastKnownLocation="Package_1309.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="f9dbf6dc-22a8-4a8b-a189-4e5f5072515d"
+            name="SearchandDestroy"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="937661d2-8186-46cb-b6e7-e26ca1a08de4"
+                  name="bool"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ba1915d9-cdc0-4884-b1d4-0146a823f79c"
+                  name="bool"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9a9b9929-dde9-4d64-b003-c03778f02927"
+                  name="bool"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="aac14d9b-a173-41af-bbd1-d5a5bc136afe"
+                  name="bool"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bfcc457b-62c0-45e5-a0ad-6dfea53de383"
+                  name="bool"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="bba4dd27-f07c-40e2-b77e-00c40a5401d5"
+        name="FoeSD"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="6a040f6f-5065-4b44-a64c-7c781ed8b786"
+            isSubstitutable="false">
+            <classMoniker
+              Id="59ba4555-d044-4855-9b5f-98481042bdbc"
+              LastKnownName="SD"
+              LastKnownLocation="ModelingProject1.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="61f9c6c4-059c-4fc3-b855-6cfca8461248"
+            name="SearchandDestroy"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="dd17873f-5343-42f8-a9c4-985841947d14"
+                  name="bool"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="9997690d-c9d0-42f3-85a3-57ef4353e3f9"
+        name="FriendSD"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="880c5478-baec-44b1-bb07-f2ad4a9a37f5"
+            isSubstitutable="false">
+            <classMoniker
+              Id="59ba4555-d044-4855-9b5f-98481042bdbc"
+              LastKnownName="SD"
+              LastKnownLocation="ModelingProject1.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="7d1eabc6-4e7e-40ed-ad45-d9cd1cf7f2fd"
+            name="SearchandDestroy"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c87f7678-a9f8-44f7-b635-27d3ad3dcada"
+                  name="bool"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="76bcbeac-858e-4e55-b31d-bb14169db7b3"
+        name="FriendFoe"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="6ff1c499-88d8-43f0-9dee-ba3bea7fa907"
+            isSubstitutable="false">
+            <classMoniker
+              Id="59ba4555-d044-4855-9b5f-98481042bdbc"
+              LastKnownName="SD"
+              LastKnownLocation="ModelingProject1.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="35e976f5-6f2e-43b0-b38c-dfea7d2cf07b"
+            name="SearchandDestroy"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="82c12a4e-c812-4b18-8aa4-f29c58c9f6ab"
+                  name="bool"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

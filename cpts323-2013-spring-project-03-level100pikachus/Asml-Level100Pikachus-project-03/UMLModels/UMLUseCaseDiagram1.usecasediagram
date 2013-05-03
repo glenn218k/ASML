@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="dc21c828-fd53-4b1d-adc6-4536ea121d2d" name="UMLUseCaseDiagram1" linkedPackageId="bb5fa3a0-4e03-4af9-8fcb-1bcd8dc4f8ce" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="b35b68a7-f651-4823-a14e-ad50e44d2e7c">
+      <profileInstance Id="2684dec6-3d29-44ba-aec8-4102d0964eb2" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="a4b2fe57-825f-47b6-8e10-c68e963852a0">
+      <profileInstance Id="fc28915e-7e85-4f9d-aa1e-86121bb120db" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="9eca3fdc-9fc7-4dee-beee-86de7a9fbdfd" name="Judge" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9802bb53-2d87-4428-9356-051af0d9b8d1" />
+        <targetEnds>
+          <association Id="dd1a182a-eb54-4645-9f6d-79ebd8adec90" isDerived="false" sourceEndRoleName="Judge" targetEndRoleName="Search and destroy timer" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="fe5f84c9-b971-4a14-9060-f9977bbe943f" LastKnownName="Search and destroy timer" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2b980b96-fc80-4ddb-a18f-5c9b9152d0fa" name="Judge" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="617320af-9178-4e4b-bab8-a404a85f217e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bcb7241e-2311-4431-b7ed-b4a74fea205f" name="Search and destroy timer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="aad56d8b-a3b8-4413-a579-3028422918da" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="752fa0f9-196b-40ee-9bb7-e071ca141a63" />
+          </association>
+          <association Id="e9db7f49-2753-4c05-9149-dec90f30daa3" isDerived="false" sourceEndRoleName="Judge" targetEndRoleName="Target Group to shoot at" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="411acb4e-f482-45c9-8b25-81990837798e" LastKnownName="Target Group to shoot at" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5da1685e-faa9-4453-ad2e-00590cb34544" name="Judge" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c85f5813-2e00-4c9c-8ec6-bc37a71b94b9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="db1e9a6b-0013-4571-9030-960a01b256f4" name="Target Group to shoot at" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0f11031c-8ed4-48c2-9ac5-4a2d7513d2b0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="375cc013-8947-4ff4-82e0-1c8c754c0a06" />
+          </association>
+          <association Id="a1ed46b7-b23a-4f2b-a6cb-81fc0bc09858" isDerived="false" sourceEndRoleName="Judge" targetEndRoleName="Live Video Feed" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3f82266c-414f-4826-aa48-924333a58870" LastKnownName="Live Video Feed" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="42243ad5-f654-4934-873d-556ecb906238" name="Judge" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4908c761-f742-4ed2-ae95-de62f9758cc1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a1c87621-fc8b-4179-b346-0d95d55a516d" name="Live Video Feed" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fd07b409-fc83-4833-b674-a9a8a1d4c743" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a59482b2-7e33-433c-9612-102c99c7f020" />
+          </association>
+          <association Id="fd04dbfa-4278-4e96-9723-efb049e976a4" isDerived="false" sourceEndRoleName="Judge" targetEndRoleName="Target Cycling" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9a98171f-ed5a-4525-949b-eac44585fe26" LastKnownName="Target Cycling" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e6e8b552-c3a2-47e3-8868-a664c6638bb5" name="Judge" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5d647380-f5f6-4f5a-ac25-49b1bdcac039" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2c724304-873d-4642-9ea3-193a8b88cf4d" name="Target Cycling" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="db7d79e8-a04e-4cf8-a530-40e6c62ee29f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0419da54-b16f-47a6-b6e8-8a33cffb77e0" />
+          </association>
+          <association Id="9c42751b-3022-4463-b373-f4b27f881df6" isDerived="false" sourceEndRoleName="Judge" targetEndRoleName="Search and Destroy" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="2da5d6e8-115a-42c5-b458-77ce0c8beffc" LastKnownName="Search and Destroy" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="944beec2-7f68-4ad0-b58b-7bb3b7604fa5" name="Judge" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4cb9f911-67d0-4400-98ce-445f27a7412a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2644668c-bd93-4a21-83f3-152abbb86e10" name="Search and Destroy" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fa64c650-4552-4eb9-a07a-c70a46402f45" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f021b7f3-2e6f-43d1-b505-50cf125ead80" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="1170cec9-292c-448f-a22b-16c00db9953f" name="Josh" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7d3cfe23-7410-4c55-a5d9-571a63132084" />
+        <targetEnds>
+          <association Id="f39814d2-8634-4111-9128-e56ce744f4d5" isDerived="false" sourceEndRoleName="Josh" targetEndRoleName="Aim of launcher for move to" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="14d5bcc2-568c-4020-9bf1-e804434422f3" LastKnownName="Aim of launcher for move to" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1c610287-993b-41be-b0e6-1379b186a94a" name="Josh" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8f803396-14a3-4f8a-8b73-ec0e5a4b45a6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9fe642f8-7550-4f00-b3b3-f6ab76a8f445" name="Aim of launcher for move to" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fd2d1438-7c4c-4de0-8cfb-4b6e05ee08f2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="052d1e42-9653-4ab1-a3a3-f995348e6343" />
+          </association>
+          <association Id="65b24db4-9919-4339-9547-4924f23be6ab" isDerived="false" sourceEndRoleName="Josh" targetEndRoleName="Target Group to shoot at" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="411acb4e-f482-45c9-8b25-81990837798e" LastKnownName="Target Group to shoot at" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="76eb0cee-ec18-4c71-8147-ccee44f29c15" name="Josh" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="6f748679-6818-4012-af60-796b80272c2f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3b83ee9c-215a-44be-adba-7b2425f31eed" name="Target Group to shoot at" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="582e0765-f6b5-4bec-ba3c-cd5e134c2ff9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a400a7ac-16ff-45e1-a662-710135a9b5b6" />
+          </association>
+          <association Id="c2511c2b-0839-491a-b818-4bbf36533bb7" isDerived="false" sourceEndRoleName="Josh" targetEndRoleName="Live Video Feed" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3f82266c-414f-4826-aa48-924333a58870" LastKnownName="Live Video Feed" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f685a412-0d5d-494e-8ea6-d21cf73a678b" name="Josh" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="570286b5-f6be-4d1b-aaec-7f04c2944372" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b9a1c040-f047-4614-9dd7-42d8554442e0" name="Live Video Feed" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4059dbc8-970c-4778-9be4-92126870a17e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="251a70e4-7293-4463-a05d-1668c863c0b4" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="80a3220f-297f-4d14-a69f-931b45a01262" name="Jon" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="833873f4-0c48-4d73-8568-053660f91e58" />
+        <targetEnds>
+          <association Id="730e89c3-043a-43ff-af9e-486159c101f1" isDerived="false" sourceEndRoleName="Jon" targetEndRoleName="Aim of launcher for move to" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="14d5bcc2-568c-4020-9bf1-e804434422f3" LastKnownName="Aim of launcher for move to" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0c85aeec-7275-46be-9b0f-5ad8f7fd1c34" name="Jon" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a29fb33d-d7f0-4568-aa54-d605108da79e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c90a6bb0-acce-4801-a255-ceff539cdcd7" name="Aim of launcher for move to" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="31d9eaab-f3d0-412a-9e66-6a7b67e75f66" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a08abced-c15e-43af-85fb-21f85c2da41e" />
+          </association>
+          <association Id="14a46b15-335d-48f0-a873-474287b643cf" isDerived="false" sourceEndRoleName="Jon" targetEndRoleName="Live Video Feed" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3f82266c-414f-4826-aa48-924333a58870" LastKnownName="Live Video Feed" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="293b456e-9435-49d0-bf6a-2211f6775c90" name="Jon" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="bed5be9c-1eab-4bac-83d7-460a9941237d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2e4792dc-747b-4eb9-a1f9-950e834a9173" name="Live Video Feed" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="63129fbe-ff35-48e3-81a9-c03a07495218" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="da061f00-0247-494f-823c-302b3b83c4fd" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="122d006a-f39e-4312-b992-8c4b715d9352" name="Chris" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="bcf873c8-dfe8-47ab-a6da-6eb1bbf6e95b" />
+        <targetEnds>
+          <association Id="de5fa79a-d98f-466a-988f-188e9ba767b6" isDerived="false" sourceEndRoleName="Chris" targetEndRoleName="Aim of launcher for move to" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="14d5bcc2-568c-4020-9bf1-e804434422f3" LastKnownName="Aim of launcher for move to" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6b265a13-9cb0-4fcc-8274-369bcd308878" name="Chris" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9913be9e-86f1-4d6c-9323-541849b1f106" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2874ce92-52ac-4a01-8536-8ef7dd5964d1" name="Aim of launcher for move to" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="49480acb-62e4-4bbd-94ab-f9b0781786cd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1e9cd0d8-5a8f-4b32-8fc8-155527cdb582" />
+          </association>
+          <association Id="079f85ae-00b0-4596-bb66-0cd2d52b205c" isDerived="false" sourceEndRoleName="Chris" targetEndRoleName="Live Video Feed" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3f82266c-414f-4826-aa48-924333a58870" LastKnownName="Live Video Feed" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3db8aa1a-41eb-47c2-9564-bdf6e3352a62" name="Chris" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a511ad9c-f592-466a-a745-916f68534b8f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="20b32338-11c5-4823-ba76-a9b755a900ca" name="Live Video Feed" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c9303cd6-381e-42cf-9682-405fcf2ce063" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4caefb85-a6ee-4dd1-8bbe-ce8ca9af5383" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="2da5d6e8-115a-42c5-b458-77ce0c8beffc" name="Search and Destroy" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="74e7eb96-1a46-46df-8322-6d605499c980" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9a98171f-ed5a-4525-949b-eac44585fe26" name="Target Cycling" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8dc7625a-0293-4a83-8bd7-4598c58ae38a" />
+        <extendedCases>
+          <extend Id="5b6ab170-26da-4336-adeb-e1218b0c484b">
+            <useCaseMoniker Id="2da5d6e8-115a-42c5-b458-77ce0c8beffc" LastKnownName="Search and Destroy" />
+            <elementDefinition Id="032cf687-6c4a-4b64-bfd6-0f8107b31538" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3f82266c-414f-4826-aa48-924333a58870" name="Live Video Feed" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9b252ae9-bb63-4c45-a284-21e07b821c30" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="411acb4e-f482-45c9-8b25-81990837798e" name="Target Group to shoot at" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f1bb7c6a-2c21-4a09-9759-3ab10a8c14d9" />
+        <targetEnds>
+          <association Id="fe76b0b4-e7f0-4e76-9db0-cbab31056fc7" isDerived="false" sourceEndRoleName="Target Group to shoot at" targetEndRoleName="Target Cycling" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9a98171f-ed5a-4525-949b-eac44585fe26" LastKnownName="Target Cycling" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="57f4d06b-ee61-435e-95ef-6597f8dc3515" name="Target Group to shoot at" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="aebe805b-823e-4689-aba3-196ae69bbad4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="27fad346-d703-4d0b-9227-e5747bd8e60d" name="Target Cycling" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="74108001-ec8e-42fa-a059-3dc69e287d2e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2598fb95-3626-4bdf-8c21-b0daee807bcf" />
+          </association>
+        </targetEnds>
+        <extendedCases>
+          <extend Id="fd5780fa-27e8-4ca1-84bc-a8ecbe66aedb">
+            <useCaseMoniker Id="2da5d6e8-115a-42c5-b458-77ce0c8beffc" LastKnownName="Search and Destroy" />
+            <elementDefinition Id="9d625e7a-0f04-4b80-9030-baed9172ca4c" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="14d5bcc2-568c-4020-9bf1-e804434422f3" name="Aim of launcher for move to" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f3e8b0a3-52a6-4634-968a-0073dc3c7671" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="fe5f84c9-b971-4a14-9060-f9977bbe943f" name="Search and destroy timer" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="24b4da21-3b73-4486-b1dc-57d6706ed24a" />
+        <extendedCases>
+          <extend Id="3f5118c0-b2be-4dfd-a294-a5d1177d6d04">
+            <useCaseMoniker Id="2da5d6e8-115a-42c5-b458-77ce0c8beffc" LastKnownName="Search and Destroy" />
+            <elementDefinition Id="9dccab6a-029f-4df6-8cc4-1a22a69b77cd" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="bb5fa3a0-4e03-4af9-8fcb-1bcd8dc4f8ce" name="UseCaseDiagram">
+    <elementDefinition Id="9cb11eb8-ec9d-4228-a62a-20e9dff64ede" />
+  </package>
+</useCaseModelRoot>

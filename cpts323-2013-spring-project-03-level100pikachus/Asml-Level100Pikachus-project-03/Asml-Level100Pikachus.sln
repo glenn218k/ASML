@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asml-Level100Pikachus", "Asml-Level100Pikachus\Asml-Level100Pikachus.csproj", "{600E99FB-9864-4D1C-91EB-B9343716DCF6}"
 EndProject
-Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "UMLDiagrams", "..\..\..\Documents\Asml-Level100Pikachus-project-02\Asml-Level100Pikachus-project-02\UMLModels\UMLDiagrams.modelproj", "{694AE227-F330-4787-AEBF-4BB00C621868}"
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "classDiagramProject", "classDiagramProject\classDiagramProject.modelproj", "{EAC39AD5-4C35-4322-AAA9-263F5D3151B3}"
 EndProject
-Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "classDiagramProject", "..\..\..\Documents\Asml-Level100Pikachus-project-02\Asml-Level100Pikachus-project-02\classDiagramProject\classDiagramProject.modelproj", "{EAC39AD5-4C35-4322-AAA9-263F5D3151B3}"
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "UMLDiagrams", "UMLModels\UMLDiagrams.modelproj", "{694AE227-F330-4787-AEBF-4BB00C621868}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,18 +35,6 @@ Global
 		{600E99FB-9864-4D1C-91EB-B9343716DCF6}.Release|x64.Build.0 = Release|x64
 		{600E99FB-9864-4D1C-91EB-B9343716DCF6}.Release|x86.ActiveCfg = Release|x86
 		{600E99FB-9864-4D1C-91EB-B9343716DCF6}.Release|x86.Build.0 = Release|x86
-		{694AE227-F330-4787-AEBF-4BB00C621868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{694AE227-F330-4787-AEBF-4BB00C621868}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{694AE227-F330-4787-AEBF-4BB00C621868}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{694AE227-F330-4787-AEBF-4BB00C621868}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{694AE227-F330-4787-AEBF-4BB00C621868}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{694AE227-F330-4787-AEBF-4BB00C621868}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{694AE227-F330-4787-AEBF-4BB00C621868}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{694AE227-F330-4787-AEBF-4BB00C621868}.Release|Any CPU.Build.0 = Release|Any CPU
-		{694AE227-F330-4787-AEBF-4BB00C621868}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{694AE227-F330-4787-AEBF-4BB00C621868}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{694AE227-F330-4787-AEBF-4BB00C621868}.Release|x64.ActiveCfg = Release|Any CPU
-		{694AE227-F330-4787-AEBF-4BB00C621868}.Release|x86.ActiveCfg = Release|Any CPU
 		{EAC39AD5-4C35-4322-AAA9-263F5D3151B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EAC39AD5-4C35-4322-AAA9-263F5D3151B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAC39AD5-4C35-4322-AAA9-263F5D3151B3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -59,6 +47,18 @@ Global
 		{EAC39AD5-4C35-4322-AAA9-263F5D3151B3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{EAC39AD5-4C35-4322-AAA9-263F5D3151B3}.Release|x64.ActiveCfg = Release|Any CPU
 		{EAC39AD5-4C35-4322-AAA9-263F5D3151B3}.Release|x86.ActiveCfg = Release|Any CPU
+		{694AE227-F330-4787-AEBF-4BB00C621868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{694AE227-F330-4787-AEBF-4BB00C621868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{694AE227-F330-4787-AEBF-4BB00C621868}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{694AE227-F330-4787-AEBF-4BB00C621868}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{694AE227-F330-4787-AEBF-4BB00C621868}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{694AE227-F330-4787-AEBF-4BB00C621868}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{694AE227-F330-4787-AEBF-4BB00C621868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{694AE227-F330-4787-AEBF-4BB00C621868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{694AE227-F330-4787-AEBF-4BB00C621868}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{694AE227-F330-4787-AEBF-4BB00C621868}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{694AE227-F330-4787-AEBF-4BB00C621868}.Release|x64.ActiveCfg = Release|Any CPU
+		{694AE227-F330-4787-AEBF-4BB00C621868}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
