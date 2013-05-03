@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="1f712938-c328-4460-830f-786b68294da8" name="UMLComponentDiagram1" linkedPackageId="735b7c26-a713-47f8-9520-f1a226e5173c" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+  <packagedElements>
+    <componentModelHasComponents>
+      <component Id="e89b2901-b385-4583-985b-8d969d24441d" name="Camera" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d6e88d6d-a975-41ca-b691-a36ad338f4e5" />
+        <ownedAttributesInternal>
+          <providedInterface Id="7c12062b-bea7-44a1-a632-022f04bdafad" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="d77c2674-d2a2-491f-a916-ac90d6aab5e7" />
+            <type_NamedElement>
+              <interfaceMoniker Id="0baeaf61-af23-4df4-abf1-061816a89738" LastKnownName="Camera provided" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="5939341b-c344-4bf8-ab87-e1dbb4496307" name="Launcher" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7665c5a7-18b9-406a-b84f-56592ff9ede6" />
+        <ownedAttributesInternal>
+          <providedInterface Id="50ab7630-86c1-4b07-8dde-12a041b73d96" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="486a6097-835d-4851-b56e-e35da2d2ea7e" />
+            <type_NamedElement>
+              <interfaceMoniker Id="6bc5346f-12f0-4850-8593-6a4f0dea225e" LastKnownName="launcher provided" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="ca90aafe-b680-4886-983e-410957111d26" name="FileReader" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b81dc3e1-57b5-4f74-9ef2-8123342a2285" />
+        <ownedAttributesInternal>
+          <providedInterface Id="2d7acfdd-f4da-4c32-8ce8-b6b27a8ce12f" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="42e1d99b-c1cd-4e24-b477-179c1ecdeefe" />
+            <type_NamedElement>
+              <interfaceMoniker Id="627a41ae-96fd-4fa4-9aeb-a02d09334c69" LastKnownName="file reader provided" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="b946be8b-6e45-4a36-b7f9-8ff8aa75e12f" name="Controller" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d97026ee-0742-4bb3-86c1-62067bad01ae" />
+        <ownedAttributesInternal>
+          <requiredInterface Id="ec52b425-9174-4e26-8010-ac9e66ee6c7d" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="c6c2b57c-a041-4f5b-b86f-3258f2e25143" />
+            <suppliersInternal>
+              <dependency Id="78426cfa-3a02-4f4f-8e89-56d5db8181f6">
+                <providedInterfaceMoniker Id="50ab7630-86c1-4b07-8dde-12a041b73d96" LastKnownName="Port1" />
+                <elementDefinition Id="a67a389a-e98d-49b5-b883-326100cd744f" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker Id="e51a314a-0a1f-4303-a1aa-5a812f87b9ff" LastKnownName="Launcher required" />
+            </type_NamedElement>
+          </requiredInterface>
+          <requiredInterface Id="51378dda-7927-4c0b-a60e-b8b691024dc2" name="Port2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="faeb8769-8d8b-4912-8589-9c59e85c39ca" />
+            <suppliersInternal>
+              <dependency Id="dd9d0e60-ad2d-4525-936d-22739ed0d02d">
+                <providedInterfaceMoniker Id="69d70c4e-ec3a-4625-b6ae-a468b7214567" LastKnownName="Port1" />
+                <elementDefinition Id="f3df47df-d8c6-4eba-bdd2-23871884122b" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker Id="fa4adbb4-efbf-4115-bfd1-70337515758e" LastKnownName="Target required interface" />
+            </type_NamedElement>
+          </requiredInterface>
+          <requiredInterface Id="6f87516a-e3e1-416e-872c-30e1878bc4aa" name="Port3" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="06180cd6-3006-4d2a-b54e-aed5bc070426" />
+            <suppliersInternal>
+              <dependency Id="db729f08-1317-4adb-9e83-ce8a35144289">
+                <providedInterfaceMoniker Id="7c12062b-bea7-44a1-a632-022f04bdafad" LastKnownName="Port1" />
+                <elementDefinition Id="014230b0-d15b-4062-9388-62a4e775c2e8" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker Id="7350fe3c-403a-4ee4-92ef-c474510efb0c" LastKnownName="camera required" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="d3805650-8bf6-432b-8bab-a43e6ed12e81" name="Targets" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="41d5ba11-f1e9-4e2b-bc9d-fc7049436f36" />
+        <ownedAttributesInternal>
+          <providedInterface Id="69d70c4e-ec3a-4625-b6ae-a468b7214567" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="b1bc9ce9-7051-42be-a663-0df72f2612d8" />
+            <type_NamedElement>
+              <interfaceMoniker Id="ab6e157e-6275-43f0-9948-a2cdf03ff7e9" LastKnownName="Target interface" />
+            </type_NamedElement>
+          </providedInterface>
+          <requiredInterface Id="b99d305b-ddf7-4a62-bd8a-0e8d301c81d6" name="Port2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="a2f530fd-aa04-4122-8378-a530c51bfecc" />
+            <suppliersInternal>
+              <dependency Id="ddf202e7-8d98-45a8-bfa5-8c01bd7394dd">
+                <providedInterfaceMoniker Id="2d7acfdd-f4da-4c32-8ce8-b6b27a8ce12f" LastKnownName="Port1" />
+                <elementDefinition Id="d3d479cd-ff15-44b9-ba18-1ce7367b1ce0" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker Id="e45ef50f-2f4f-49e2-ba31-9c5f2bcdf85d" LastKnownName="File reader needed" />
+            </type_NamedElement>
+          </requiredInterface>
+          <requiredInterface Id="9e0b270e-178f-4c96-a989-f1f966e7e753" name="Port3" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="89c3f1b6-50ce-41d9-b2b1-08a84b2e522a" />
+            <suppliersInternal>
+              <dependency Id="32b754ba-fe98-4b22-82b0-06b729804727">
+                <providedInterfaceMoniker Id="7c12062b-bea7-44a1-a632-022f04bdafad" LastKnownName="Port1" />
+                <elementDefinition Id="782faade-1005-48bb-89da-ae95bc939f31" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker Id="72e11f16-dc31-4c5c-9e45-848b6939d72f" LastKnownName="Camera required" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <modelContainsNamedElements>
+      <Interface Id="e51a314a-0a1f-4303-a1aa-5a812f87b9ff" name="Launcher required" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a236611e-64e3-4f7c-844f-e6d1e50b14e2" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="6bc5346f-12f0-4850-8593-6a4f0dea225e" name="launcher provided" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e432b571-d073-4631-8e2f-9ed0628eba27" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="fa4adbb4-efbf-4115-bfd1-70337515758e" name="Target required interface" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ef65ec13-e331-45d1-a7e7-b208057406b6" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="ab6e157e-6275-43f0-9948-a2cdf03ff7e9" name="Target interface" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f158b640-957f-4e37-99c7-195fd50a3526" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="e45ef50f-2f4f-49e2-ba31-9c5f2bcdf85d" name="File reader needed" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1a445bda-dc9b-4afb-89b8-90df08360132" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="72e11f16-dc31-4c5c-9e45-848b6939d72f" name="Camera required" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f60ca73e-9b41-483d-912a-ce7983f4d057" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="7350fe3c-403a-4ee4-92ef-c474510efb0c" name="camera required" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="93f4db03-1b16-482a-b764-cf5ae972123e" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="627a41ae-96fd-4fa4-9aeb-a02d09334c69" name="file reader provided" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2ca18602-74a4-466a-a400-883e09cf16ee" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="0baeaf61-af23-4df4-abf1-061816a89738" name="Camera provided" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="58735685-91b4-4a5b-8f78-8a344e52dff5" />
+      </Interface>
+    </modelContainsNamedElements>
+  </packagedElements>
+  <package Id="735b7c26-a713-47f8-9520-f1a226e5173c" name="UseCaseDiagram">
+    <elementDefinition Id="9cb11eb8-ec9d-4228-a62a-20e9dff64ede" />
+    <profileInstances>
+      <packageHasProfileInstances Id="8413fad5-8a2f-453e-aec7-c0063a1cb757">
+        <profileInstance Id="267fa549-a022-49e9-a4a7-c8cbac5f2d2d" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="6c46472b-66ab-4e7b-82d5-4913c2f928b6">
+        <profileInstance Id="0df5e511-ac9a-47da-8244-5c0e71f3e655" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</componentModel>
